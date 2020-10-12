@@ -318,3 +318,15 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.placeholder:hover .game-bg-dota {
+  transform: scale(1.2);
+}
+
+.placeholder:hover .game-bg-lol {
+  transform: scale(1.2);
+}
+
+.placeholder:hover .game-bg-cs {
+  transform: scale(1.2);
+}
