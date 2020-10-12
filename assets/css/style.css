@@ -81,3 +81,27 @@ body {
     0 0 20px #00f9ff, 0 0 30px #00f9ff, 0 0 40px #00f9ff, 0 0 50px #00f9ff,
     0 0 60px #00f9ff;
 }
+
+#nav-font {
+  font-family: "Roboto";
+  margin-bottom: 0;
+}
+
+#nav-font li.active:after {
+  content: "";
+  height: 1px;
+  display: block;
+  background: var(--secondary-color);
+}
+
+#nav-font a {
+  color: var(--font-color-main);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+#nav-font li {
+  padding: 5px 20px;
+  margin-right: 10px;
+}
