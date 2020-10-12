@@ -43,3 +43,12 @@ body {
   text-transform: capitalize;
 }
 
+/*------------------------------------------------------Navigation bar */
+.bg-dark {
+  background: rgba(
+    15,
+    15,
+    15,
+    0.8
+  ) !important; /* override bg-dark !important setting */
+}
