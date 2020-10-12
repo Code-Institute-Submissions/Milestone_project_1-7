@@ -400,3 +400,44 @@ footer {
   align-items: center;
   justify-content: space-around;
 }
+
+footer h3 a {
+  color: var(--font-color-main);
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+
+footer h3 a:hover {
+  text-decoration: none;
+  color: var(--font-color-main);
+  text-shadow: 0 0 5px var(--secondary-color), 0 0 10px var(--secondary-color),
+    0 0 15px #fff, 0 0 20px var(--secondary-color),
+    0 0 30px var(--secondary-color), 0 0 40px var(--secondary-color),
+    0 0 50px var(--secondary-color), 0 0 60px var(--secondary-color);
+}
+
+.footer-social {
+  text-align: center;
+  color: var(--font-color-main);
+  font-size: 1.25rem;
+  font-weight: 700;
+  text-shadow: 0 0 5px var(--secondary-color), 0 0 10px var(--secondary-color),
+    0 0 15px #fff, 0 0 20px var(--secondary-color),
+    0 0 30px var(--secondary-color), 0 0 40px var(--secondary-color),
+    0 0 50px var(--secondary-color), 0 0 60px var(--secondary-color);
+}
+
+.footer-social i {
+  font-size: 1.25rem;
+  color: var(--secondary-color);
+  margin-right: 2px;
+  text-shadow: none;
+}
+
+#pulze-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
