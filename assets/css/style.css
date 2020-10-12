@@ -586,5 +586,6 @@ font-size: 3rem;
   .social-text {
     display: inline-block !important; /* used to help the User click the social media links on smaller screens */
     margin-right: 6px;
+    text-shadow: none;
   }
 }
