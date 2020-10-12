@@ -547,6 +547,11 @@ font-size: 3rem;
   font-size: 1.5rem;
 }
 
+.game-bg-lol img{
+    width: 150px;
+    line-height: 200px;
+}
+
  .footer-links {
     width: 100%;
     display: block;
