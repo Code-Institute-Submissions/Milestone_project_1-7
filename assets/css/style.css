@@ -186,3 +186,15 @@ body {
 .hero-text p {
   font-size: 2rem;
 }
+
+.cta-hero {
+  background: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+  padding: 5px 10px;
+  border-radius: 10px;
+  color: var(--header-bg-color);
+  font-size: 1.25rem;
+  font-weight: 700;
+  font-family: "Roboto";
+  text-transform: uppercase;
+}
