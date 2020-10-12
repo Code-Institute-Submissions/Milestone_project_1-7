@@ -368,3 +368,14 @@ body {
   display: inline-block;
   margin-top: 5px;
 }
+
+.social-container a:hover {
+  color: var(--font-color-main);
+  text-shadow: 0 0 5px var(--secondary-color), 0 0 10px var(--secondary-color),
+    0 0 15px #fff, 0 0 20px var(--secondary-color),
+    0 0 30px var(--secondary-color), 0 0 40px var(--secondary-color),
+    0 0 50px var(--secondary-color), 0 0 60px var(--secondary-color);
+  text-decoration: none;
+}
+
+
