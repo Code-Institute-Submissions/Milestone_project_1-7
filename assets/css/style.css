@@ -57,7 +57,7 @@ body {
   color: var(--font-color-main);
 }
 
-.icon {
+.icon { /* used to style the burger-icon from font-awesome on smaller screens */
   color: var(--font-color-main);
   text-shadow: 0 0 5px var(--secondary-color), 0 0 10px var(--secondary-color),
     0 0 15px #fff, 0 0 20px var(--secondary-color),
