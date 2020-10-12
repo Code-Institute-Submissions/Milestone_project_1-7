@@ -52,3 +52,25 @@ body {
     0.8
   ) !important; /* override bg-dark !important setting */
 }
+
+.navbar-dark {
+  color: var(--font-color-main);
+}
+
+.icon {
+  color: var(--font-color-main);
+  text-shadow: 0 0 5px var(--secondary-color), 0 0 10px var(--secondary-color),
+    0 0 15px #fff, 0 0 20px var(--secondary-color),
+    0 0 30px var(--secondary-color), 0 0 40px var(--secondary-color),
+    0 0 50px var(--secondary-color), 0 0 60px var(--secondary-color);
+}
+
+.navbar-brand {
+  color: var(--font-color-main);
+  font-family: "Press Start 2P", sans-serif;
+  text-shadow: 0 0 5px var(--secondary-color), 0 0 10px var(--secondary-color),
+    0 0 15px #fff, 0 0 20px var(--secondary-color),
+    0 0 30px var(--secondary-color), 0 0 40px var(--secondary-color),
+    0 0 50px var(--secondary-color), 0 0 60px var(--secondary-color);
+  text-decoration: none;
+}
