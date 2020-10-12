@@ -223,3 +223,7 @@ body {
     transform: scale(0.9);
   }
 }
+
+.cta-hero i {
+  color: var(--header-bg-color);
+}
