@@ -407,7 +407,6 @@ footer h3 a {
   font-size: 1.25rem;
 }
 
-
 footer h3 a:hover {
   text-decoration: none;
   color: var(--font-color-main);
@@ -443,66 +442,65 @@ footer h3 a:hover {
 }
 
 /*------------------------------------------------------Media Queries */
-@media only screen and (min-width:1800px){
-    .section-heading{
-        font-size:4.5rem;
-    }
-    
-    .navbar-brand{
-        font-size: 2rem;
-    }
-    .nav-link{
-        font-size: 2rem;
-    }
-    div a#cta-download{
-        font-size:2rem;
-    }
-.hero-text h1 {
-  font-size: 6rem;
-}
 
-.hero-text h2 {
-  font-size: 4rem;
-}
+@media only screen and (min-width: 1800px) {
+  .section-heading {
+    font-size: 4.5rem;
+  }
 
-.hero-text p {
-  font-size: 3rem;
-}
+  .navbar-brand {
+    font-size: 2rem;
+  }
+  .nav-link {
+    font-size: 2rem;
+  }
+  div a#cta-download {
+    font-size: 2rem;
+  }
+  .hero-text h1 {
+    font-size: 6rem;
+  }
 
-.hero-text .fa-heartbeat {
-font-size: 6rem;
-}
+  .hero-text h2 {
+    font-size: 4rem;
+  }
 
-.cta-hero {
-  font-size:2rem;
-}
+  .hero-text p {
+    font-size: 3rem;
+  }
 
-.placeholder{
+  .hero-text .fa-heartbeat {
+    font-size: 6rem;
+  }
+
+  .cta-hero {
+    font-size: 2rem;
+  }
+
+  .placeholder {
     height: 600px;
-}
-.social-container a p{
-    font-size:4rem;
-}
+  }
+  .social-container a p {
+    font-size: 4rem;
+  }
 
-.social-container i {
+  .social-container i {
     font-size: 5rem;
   }
 
-  footer{
-      height: 10rem;
+  footer {
+    height: 10rem;
   }
 
-  footer h3 a{
-      font-size:2.25rem;
+  footer h3 a {
+    font-size: 2.25rem;
   }
 
-  .footer-social h3{
-      font-size: 3rem;
+  .footer-social h3 {
+    font-size: 3rem;
   }
 
-  .footer-social i{
-      font-size:2rem;
+  .footer-social i {
+    font-size: 2rem;
   }
-
-
 }
