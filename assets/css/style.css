@@ -601,3 +601,7 @@ font-size: 3rem;
 .cta-hero{
     margin-top: -10px;
 }
+
+.social-container p {
+    font-size: 1.25rem;
+}
