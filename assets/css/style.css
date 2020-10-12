@@ -17,3 +17,28 @@ body {
 #content-wrap {
   padding-bottom: 22rem; /* Footer height */
 }
+
+/*------------------------------------------------------Common colors/Heading settings  */
+
+:root {
+  --header-bg-color: rgba(15, 15, 15, 1);
+
+  --font-color-main: #fafafa;
+
+  --secondary-color: #ff6ec7;
+
+  --third-color: #00f9ff;
+}
+
+.section-heading {
+  text-align: center;
+  color: var(--font-color-main);
+  font-size: 3rem;
+  font-family: "Roboto", sans-serif;
+  text-shadow: 0 0 5px var(--secondary-color), 0 0 10px var(--secondary-color),
+    0 0 15px #fff, 0 0 20px var(--secondary-color),
+    0 0 30px var(--secondary-color), 0 0 40px var(--secondary-color),
+    0 0 50px var(--secondary-color), 0 0 60px var(--secondary-color);
+  font-weight: 700;
+  text-transform: capitalize;
+}
