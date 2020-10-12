@@ -264,3 +264,36 @@ body {
   border-top: 2px solid #ff22a9;
   border-bottom: 2px solid #ff22a9;
 }
+
+.game-bg-dota {
+  width: 100%;
+  height: 100%;
+  background-color: black; /* fallback color */
+  background-image: url("../images/dota-background.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  transition: all 0.5s;
+}
+
+.game-bg-lol {
+  width: 100%;
+  height: 100%;
+  background-color: black; /* fallback color */
+  background-image: url("../images/lol-background.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  transition: all 0.5s;
+}
+
+.game-bg-cs {
+  width: 100%;
+  height: 100%;
+  background-color: black; /* fallback color */
+  background-image: url("../images/cs-background.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  transition: all 0.5s;
+}
