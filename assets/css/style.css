@@ -504,3 +504,22 @@ footer h3 a:hover {
     font-size: 2rem;
   }
 }
+
+@media only screen and (min-width: 1060px) and (max-width: 1800px) {
+  .join-us-section .section-heading {
+    margin-bottom: 100px;
+  }
+  .join-us {
+    flex-direction: row;
+  }
+  .social-container a p {
+    margin-top: 5px;
+  }
+  .social-container a p {
+    margin-right: 5px;
+    font-size: 1rem;
+  }
+  .social-container i {
+    font-size: 2rem;
+  }
+}
