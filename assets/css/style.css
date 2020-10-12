@@ -508,7 +508,7 @@ footer h3 a:hover {
 @media only screen and (min-width: 1060px) and (max-width: 1800px) {
 
     #content-wrap {
-  padding-bottom: 10rem; /* Footer height */
+  padding-bottom: 15rem; /* Footer height */
 }
   .join-us-section .section-heading {
     margin-bottom: 100px;
