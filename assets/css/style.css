@@ -133,3 +133,10 @@ background-repeat: no-repeat;
 background-size:cover
 
 }
+
+.hero-text {
+  text-align: center;
+  color: var(--font-color-main);
+  font-family: "Roboto";
+  text-transform: uppercase;
+}
