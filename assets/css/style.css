@@ -141,6 +141,14 @@ body {
   text-transform: uppercase;
 }
 
+.hero-text i {
+  color: var(--secondary-color);
+  text-shadow: 0 0 5px var(--secondary-color), 0 0 10px var(--secondary-color),
+    0 0 15px #fff, 0 0 20px var(--secondary-color),
+    0 0 30px var(--secondary-color), 0 0 40px var(--secondary-color),
+    0 0 50px var(--secondary-color), 0 0 60px var(--secondary-color);
+}
+
 .hero-text .fa-heartbeat {
   font-size: 3.5rem;
   animation: pulse 1.8s infinite;
