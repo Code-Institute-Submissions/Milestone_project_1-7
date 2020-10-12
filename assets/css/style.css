@@ -215,17 +215,17 @@ body {
   0%,
   50%,
   100% {
-    transform: scale(1);
+   padding: 5px 10px;
   }
 
   20%,
   70% {
-    transform: scale(1.1);
+    padding: 10px 15px;
   }
 
   30%,
   90% {
-    transform: scale(0.9);
+    padding: 4px 9px;
   }
 }
 
