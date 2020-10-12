@@ -352,3 +352,19 @@ body {
   flex-direction: column;
 }
 
+.social-container {
+  width: 100%;
+  text-align: center;
+  font-family: "Press Start 2P";
+  font-size: 1.5rem;
+}
+
+.social-container a {
+  color: var(--font-color-main);
+}
+
+.social-container a p,
+.social-container a p i {
+  display: inline-block;
+  margin-top: 5px;
+}
