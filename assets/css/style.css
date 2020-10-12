@@ -57,7 +57,8 @@ body {
   color: var(--font-color-main);
 }
 
-.icon { /* used to style the burger-icon from font-awesome on smaller screens */
+.icon {
+  /* used to style the burger-icon from font-awesome on smaller screens */
   color: var(--font-color-main);
   text-shadow: 0 0 5px var(--secondary-color), 0 0 10px var(--secondary-color),
     0 0 15px #fff, 0 0 20px var(--secondary-color),
@@ -129,9 +130,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-background-repeat: no-repeat;
-background-size:cover
-
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .hero-text {
@@ -139,4 +139,42 @@ background-size:cover
   color: var(--font-color-main);
   font-family: "Roboto";
   text-transform: uppercase;
+}
+
+.hero-text .fa-heartbeat {
+  font-size: 3.5rem;
+  animation: pulse 1.8s infinite;
+}
+
+@keyframes pulse {
+  0%,
+  51% {
+    transform: scale(1);
+  }
+
+  20%,
+  70% {
+    transform: scale(1.1);
+  }
+
+  30%,
+  90% {
+    transform: scale(0.9);
+  }
+
+  100% {
+    transform: scale(1.1);
+  }
+}
+
+.hero-text h1 {
+  font-size: 3.5rem;
+}
+
+.hero-text h2 {
+  font-size: 2.5rem;
+}
+
+.hero-text p {
+  font-size: 2rem;
 }
