@@ -227,3 +227,22 @@ body {
 .cta-hero i {
   color: var(--header-bg-color);
 }
+
+.cta-hero:hover i {
+  animation: rotation 0.2s linear forwards;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(45deg);
+  }
+
+  100% {
+    transform: rotate(90deg);
+    color: var(--secondary-color);
+  }
+}
