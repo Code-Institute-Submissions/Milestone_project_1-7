@@ -567,7 +567,11 @@ font-size: 3rem;
   }
 
   #content-wrap {
-    padding-bottom: 40rem; /* Footer height */
+    padding-bottom: 33rem; /* Footer height */
+  }
+
+  .join-us{
+      margin-top: -40px;
   }
 
   footer {
