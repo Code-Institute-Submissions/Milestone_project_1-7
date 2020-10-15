@@ -1086,3 +1086,40 @@ font-size: 3rem;
     height: 150px;
   }
 }
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .tournament {
+    width: 180px;
+    height: 300px;
+    margin: 0px 7px;
+  }
+  .event-heading {
+    font-size: 1rem;
+  }
+
+  .container-img img {
+    height: 75%;
+  }
+
+  .card-spacing {
+    margin-top: 0px;
+  }
+
+  .day {
+    width: 120px;
+    height: 120px;
+  }
+
+  .game-hero-text h1 {
+    font-size: 2.5rem;
+    margin-top: 50px;
+  }
+
+  .how-to i {
+    font-size: 2rem;
+  }
+
+  .how-to p {
+    font-size: 1rem;
+  }
+}
