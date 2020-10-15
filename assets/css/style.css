@@ -1176,3 +1176,60 @@ font-size: 3rem;
     height: 75%;
   }
 }
+
+@media only screen and (min-width: 300px) and (max-width: 576px) {
+  .game-hero-text h1 {
+    font-size: 1.5rem;
+  }
+
+  .how-to i {
+    font-size: 1rem;
+  }
+
+  .how-to p {
+    font-size: 0.75rem;
+  }
+
+  a.game-cta-hero {
+    font-size: 1rem;
+    padding: 5px 10px;
+  }
+
+  .how-to {
+    margin: 0;
+  }
+
+  .geo-heading{
+    display: block;
+    margin: 0 auto;
+  }
+
+  .geo {
+    display: block;
+    margin: 5px auto;
+    width:50%;
+    
+  }
+  
+
+  .event-table {
+    display: block;
+  }
+
+  .tournament-card-container{
+      flex-direction: column;
+     align-items: center;
+  }
+
+  .day {
+    width: 50%;
+    margin: 20px auto;
+    height: 50px;
+  }
+
+  .tournament {
+    width: 250px;
+    height: 350px;
+    margin-bottom: 20px;
+  }
+}
