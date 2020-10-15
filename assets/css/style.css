@@ -467,6 +467,101 @@ footer h3 a:hover {
   overflow: hidden;
 }
 
+.game-hero-text {
+  color: var(--font-color-main);
+}
+
+.game-hero-text h1 {
+  text-align: center;
+  font-family: "Press Start 2P", sans-serif;
+  text-shadow: 0 0 5px var(--secondary-color), 0 0 10px var(--secondary-color),
+    0 0 15px #fff, 0 0 20px var(--secondary-color),
+    0 0 30px var(--secondary-color), 0 0 40px var(--secondary-color),
+    0 0 50px var(--secondary-color), 0 0 60px var(--secondary-color);
+  margin-top: 20px;
+  font-size: 3.5rem;
+}
+
+.how-to {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.how-to i {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.how-to p {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+a.game-cta-hero {
+  background: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+  padding: 5px 10px;
+  border-radius: 10px;
+  color: var(--header-bg-color);
+  font-size: 1.25rem;
+  font-weight: 700;
+  font-family: "Roboto";
+  text-transform: uppercase;
+}
+
+a.game-cta-hero:hover {
+  color: var(--header-bg-color);
+  background-color: #fafafa;
+  animation: pulse-button 1.8s linear 3;
+  text-decoration: none;
+}
+
+@keyframes pulse-button {
+  0%,
+  50%,
+  100% {
+    padding: 5px 10px;
+  }
+
+  20%,
+  70% {
+    padding: 10px 15px;
+  }
+
+  30%,
+  90% {
+    padding: 4px 9px;
+  }
+}
+
+.game-cta-hero i {
+  color: var(--header-bg-color);
+}
+
+.game-cta-hero:hover i {
+  animation: rotation 0.2s linear forwards;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(45deg);
+  }
+
+  100% {
+    transform: rotate(90deg);
+    color: var(--secondary-color);
+  }
+}
+
+.link-container {
+  text-align: center;
+}
+
+
 /*------------------------------------------------------Media Queries */
 
 @media only screen and (min-width: 1800px) {
