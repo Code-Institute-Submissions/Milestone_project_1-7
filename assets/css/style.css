@@ -1062,3 +1062,27 @@ font-size: 3rem;
 
 
 /*------------------------------------------------------Event Page Media queries */
+
+@media only screen and (min-width: 1024px) and (max-width: 1300px) {
+  .tournament {
+    width: 200px;
+    height: 300px;
+    margin: 0px 10px;
+  }
+  .event-heading {
+    font-size: 1.25rem;
+  }
+
+  .container-img img {
+    height: 75%;
+  }
+
+  .card-spacing {
+    margin-top: 0px;
+  }
+
+  .day {
+    width: 150px;
+    height: 150px;
+  }
+}
