@@ -643,6 +643,13 @@ a.game-cta-hero:hover {
   margin: 0px 25px;
 }
 
+.tournament:hover{
+    box-shadow: 0 0 5px var(--secondary-color), 0 0 10px var(--secondary-color),
+    0 0 15px #fff, 0 0 20px var(--secondary-color),
+    0 0 30px var(--secondary-color), 0 0 40px var(--secondary-color),
+    0 0 50px var(--secondary-color), 0 0 60px var(--secondary-color);
+}
+
 .tournament.na {
   background-color: rgb(59, 203, 223);
 }
