@@ -561,6 +561,44 @@ a.game-cta-hero:hover {
   text-align: center;
 }
 
+/*------------------------------------------------------ Our Events Section */
+
+
+.events h2 {
+  margin-top: 20px;
+}
+
+.geo-heading {
+  margin-left: 10px;
+  color: var(--font-color-main);
+  font-size: 1.25rem;
+  font-weight: 700;
+  text-align: center;
+}
+.geo {
+  padding: 5px 10px;
+  border-radius: 10px;
+  color: var(--font-color-main);
+  font-size: 0.75rem;
+  font-weight: 700;
+  font-family: "Roboto";
+  text-transform: uppercase;
+  text-align: center;
+  background-color: var(--header-bg-color);
+  border: 3px solid;
+}
+.geo.na {
+  border-color: rgb(59, 203, 223);
+}
+
+.geo.eu {
+  border-color: rgb(175, 61, 61);
+}
+
+.geo.nea {
+  border-color: rgb(190, 148, 33);
+}
+
 
 /*------------------------------------------------------Media Queries */
 
