@@ -900,6 +900,59 @@ input.modal-close:hover{
   .footer-social i {
     font-size: 2rem;
   }
+
+   /*------------------------------------------------------Event Page */
+  .game-hero-text h1 {
+    font-size: 6rem;
+    margin-top: 50px;
+  }
+
+  .how-to i {
+    font-size: 6rem;
+  }
+
+  .how-to p {
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+  }
+
+  a.game-cta-hero {
+    font-size: 2.5rem;
+    padding: 10px 20px;
+  }
+
+  a.game-cta-hero:hover {
+    color: var(--header-bg-color);
+    background-color: #fafafa;
+    animation: pulse-4k 1.8s linear 3;
+    text-decoration: none;
+  }
+
+  @keyframes pulse-4k {
+    0%,
+    50%,
+    100% {
+      padding: 10px 20px;
+    }
+
+    20%,
+    70% {
+      padding: 20px 30px;
+    }
+
+    30%,
+    90% {
+      padding: 8px 19px;
+    }
+  }
+  .geo-heading {
+    font-size: 2.5rem;
+  }
+
+  .geo {
+    font-size: 1.5rem;
+  }
+}
 }
 
 @media only screen and (min-width: 1060px) and (max-width: 1800px) {
@@ -1006,3 +1059,6 @@ font-size: 3rem;
 .social-container p {
     font-size: 1.25rem;
 }
+
+
+/*------------------------------------------------------Event Page Media queries */
