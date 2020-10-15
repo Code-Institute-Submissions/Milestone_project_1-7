@@ -108,9 +108,150 @@
                 <p>Mon</p>
               </div>
             </div>
-             <div class="tournament-card-container">
-             
-             </div>
+            <div class="tournament-card-container">
+              <div class="tournament na">
+                <p class="event-heading">Dota Tournament</p>
+                <div class="container-img">
+                  <img src="assets/images/dota.png" alt="Dota logo" />
+                </div>
+                <div class="row">
+                  <div class="col-12 card-spacing">
+                    <i class="fas fa-hourglass"></i> <span> 3PM GMT-4</span>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12">
+                    <i class="fas fa-users"></i> <span> 1-5</span>
+                  </div>
+                </div>
+                <button
+                  class="event-sign-up btn btn-primary"
+                  type="button"
+                  data-toggle="modal"
+                  data-target="#myModal"
+                >
+                  Join
+                </button>
+                <div
+                  class="modal fade"
+                  id="myModal"
+                  tabindex="-1"
+                  role="dialog"
+                  aria-labelledby="exampleModalLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">
+                          Please fill out the form to sign up for the tournamnet
+                        </h5>
+                      </div>
+                      <div class="modal-body">
+                        <form>
+                          <label class="form-heading" for="name">Name</label>
+                          <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Please enter your name"
+                            class="modal-form"
+                            required
+                          />
+                          <label class="form-heading" for="email">Email</label>
+                          <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Please enter your Email"
+                            class="modal-form"
+                            required
+                          />
+                          <label class="form-heading" for="day"
+                            >Tournament day</label
+                          >
+                          <select
+                            name="day"
+                            id="day"
+                            required
+                            class="modal-form"
+                          >
+                            <option value="monday">Monday</option>
+                            <option value="tuesday">Tuesday</option>
+                            <option value="wednesday">Wednesday</option>
+                            <option value="thursday">Thursday</option>
+                            <option value="friday">Friday</option>
+                            <option value="saturday">Saturday</option>
+                            <option value="sunday">Sunday</option>
+                          </select>
+                          <label class="form-heading" for="game"
+                            >Which Game</label
+                          >
+                          <select
+                            name="game"
+                            id="game"
+                            class="modal-form"
+                            required
+                          >
+                            <option value="dota">Dota</option>
+                            <option value="lol">League of Legends</option>
+                            <option value="cs">Counterstrike</option>
+                          </select>
+                          <label class="form-heading" for="party"
+                            >Please Enter Teamsize</label
+                          >
+                          <input
+                            type="number"
+                            placeholder="Between 1-5"
+                            min="1"
+                            max="5"
+                            class="modal-form"
+                            required
+                          />
+                          <label class="modal-radio">
+                            <input
+                              type="radio"
+                              name="region"
+                              value="north-america"
+                              required
+                            />
+                            North America
+                          </label>
+
+                          <label class="modal-radio">
+                            <input type="radio" name="region" value="europe" />
+                            Europe </label
+                          ><br />
+
+                          <label class="modal-radio">
+                            <input
+                              type="radio"
+                              name="region"
+                              value="North East Asia"
+                            />
+                            North East Asia </label
+                          ><br />
+                          <input
+                            type="submit"
+                            value="Sign Up"
+                            class="modal-close"
+                          />
+                        </form>
+                      </div>
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-secondary"
+                          data-dismiss="modal"
+                        >
+                          Close
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </section>
       </div>
