@@ -843,6 +843,55 @@ input.modal-close:hover{
 	}
 
 }
+/*------------------------------------------------------About us Page */
+
+/*------------------------------------------------------About us Hero Section */
+
+.about-hero{
+     height: 80vh;
+  max-width: 100%;
+  background: linear-gradient(
+      0deg,
+      rgba(235, 6, 132, 0.6),
+      rgba(218, 20, 208, 0.3)
+    ),
+    url("../images/hero_image_about.jpg") center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.about-hero-text{
+    color: var(--font-color-main);
+    text-align: center;
+}
+
+.about-hero h1 {
+     
+  font-family: "Press Start 2P", sans-serif;
+  text-shadow: 0 0 5px var(--secondary-color), 0 0 10px var(--secondary-color),
+    0 0 15px #fff, 0 0 20px var(--secondary-color),
+    0 0 30px var(--secondary-color), 0 0 40px var(--secondary-color),
+    0 0 50px var(--secondary-color), 0 0 60px var(--secondary-color);
+  font-size: 3.5rem;
+  color: var(--font-color-main);
+  margin-top: -50px;
+  margin-bottom: 50px;
+}
+.about-hero-text i{
+ font-size: 3rem;
+ margin-bottom: 20px;
+}
+
+.about-hero-text p{
+     font-size: 1.75rem;
+     margin: 0px 12.5%;
+}
+
+
 
 
 /*------------------------------------------------------Media Queries */
