@@ -891,6 +891,28 @@ input.modal-close:hover{
      margin: 0px 12.5%;
 }
 
+/*------------------------------------------------------About us Offer Section */
+.offer-section{
+text-align: center;
+}
+
+.offer-section h2 {
+    margin-top: 40px;
+}
+
+.offer-section i {
+    font-size: 2.5rem;
+    color: var(--font-color-main);
+    margin: 80px 0px 20px 0px;
+}
+
+.offer-section p {
+    color: var(--font-color-main);
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    line-height: 40px;
+}
+
 
 
 
