@@ -1428,7 +1428,7 @@ font-size: 3rem;
   }
 }
 
-@media only screen and (min-width: 300px) and (max-width: 576px) {
+@media only screen and (min-width: 300px) and (max-width: 575px) {
   .game-hero-text h1 {
     font-size: 1.5rem;
   }
@@ -1482,6 +1482,36 @@ font-size: 3rem;
     width: 250px;
     height: 350px;
     margin-bottom: 20px;
+  }
+  /*------------------------------------------------------About Page  */
+  .about-hero h1 {
+      font-size: 1.5rem;
+  }
+
+  .about-hero-text i {
+      font-size: 1.5rem;
+  }
+
+  .about-hero-text p{
+      font-size: 1rem;
+  }
+
+  .about-offer{
+      margin-bottom: 40px;
+      border-top: 2px solid var(--secondary-color);
+      border-bottom: 2px solid var(--secondary-color);
+      padding: 20px
+  }
+.about-border-bot{
+    border-bottom: none
+}
+  .about-border{
+      
+      border-bottom: none;
+  }
+
+  .benefit-card{
+      height: 300px;
   }
 }
 
