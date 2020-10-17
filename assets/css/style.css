@@ -1332,9 +1332,23 @@ font-size: 3rem;
   .how-to p {
     font-size: 1rem;
   }
+
+  /*------------------------------------------------------About Page  */
+  .about-hero h1 {
+      font-size: 2.5rem;
+  }
+
+  .about-hero-text i {
+      font-size: 2rem;
+  }
+
+  .about-hero-text p{
+      font-size: 1.5rem;
+  }
+
 }
 
-@media only screen and (min-width: 576px) and (max-width: 768px) {
+@media only screen and (min-width: 576px) and (max-width: 767px) {
   .game-hero-text h1 {
     font-size: 2rem;
     margin-top: 50px;
@@ -1384,6 +1398,33 @@ font-size: 3rem;
   .container-img img {
     width: 80%;
     height: 75%;
+  }
+
+  /*------------------------------------------------------About Page  */
+  .about-hero h1 {
+      font-size: 2rem;
+  }
+
+  .about-hero-text i {
+      font-size: 2rem;
+  }
+
+  .about-hero-text p{
+      font-size: 1.25rem;
+  }
+
+  .about-offer{
+      margin-bottom: 40px;
+      border-top: 2px solid var(--secondary-color);
+      border-bottom: 2px solid var(--secondary-color);
+      padding: 20px
+  }
+.about-border-bot{
+    border-bottom: none
+}
+  .about-border{
+      
+      border-bottom: none;
   }
 }
 
@@ -1443,3 +1484,6 @@ font-size: 3rem;
     margin-bottom: 20px;
   }
 }
+
+
+/*------------------------------------------------------About Page Media queries */
