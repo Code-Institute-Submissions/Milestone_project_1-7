@@ -894,6 +894,8 @@ input.modal-close:hover{
 /*------------------------------------------------------About us Offer Section */
 .offer-section{
 text-align: center;
+
+
 }
 
 .offer-section h2 {
@@ -903,7 +905,6 @@ text-align: center;
 .offer-section i {
     font-size: 2.5rem;
     color: var(--font-color-main);
-    margin: 80px 0px 20px 0px;
 }
 
 .offer-section p {
@@ -913,7 +914,53 @@ text-align: center;
     line-height: 40px;
 }
 
+/*------------------------------------------------------About us Benefit Section */
+.benefit-section{
+text-align: center;
+display: flex; 
+flex-direction: column;
+align-items: center;
 
+}
+
+.benefit-section h2 {
+    margin-top: 40px;
+}
+.benefit-card{
+    background: var(--font-color-main);
+    padding: 20px 10px;
+    margin: 20px 0px;
+    width: 50%;
+    height: 200px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.benefit-card i {
+width: 100%;
+}
+
+.benefit-section i {
+    font-size: 2.5rem;
+    color: var(--header-bg-color);
+    margin: 10px;
+}
+
+.benefit-section p {
+    color: var(--header-bg-color);
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+.benefit-text {
+    color: var(--secondary-color);
+}
+
+/*------------------------------------------------------About us Benefit Section */
 
 
 /*------------------------------------------------------Media Queries */
