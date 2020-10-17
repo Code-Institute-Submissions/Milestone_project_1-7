@@ -619,6 +619,11 @@ a.game-cta-hero:hover {
   text-transform: uppercase;
 }
 
+.weekend{
+    background-color: var(--secondary-color);
+    color:var(--header-bg-color);
+}
+
 .day-text {
   color: var(--header-bg-color);
   position: absolute;
