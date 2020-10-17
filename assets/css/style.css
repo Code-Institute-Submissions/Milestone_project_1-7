@@ -894,17 +894,17 @@ input.modal-close:hover{
 /*------------------------------------------------------About us Offer Section */
 .offer-section{
 text-align: center;
-
-
+margin: 100px 0px;
 }
 
 .offer-section h2 {
-    margin-top: 40px;
+    margin: 80px 0px;
 }
 
 .offer-section i {
-    font-size: 2.5rem;
+    font-size: 3rem;
     color: var(--font-color-main);
+    margin-bottom: 10px;
 }
 
 .offer-section p {
@@ -924,7 +924,8 @@ align-items: center;
 }
 
 .benefit-section h2 {
-    margin-top: 40px;
+    margin-top: 20px;
+    margin-bottom:10px;
 }
 .benefit-card{
     background: var(--font-color-main);
@@ -1077,7 +1078,37 @@ width: 100%;
   .geo {
     font-size: 1.5rem;
   }
-}
+
+    /*------------------------------------------------------About Page */
+.about-hero h1 {
+      font-size: 6rem;
+  }
+
+  .about-hero-text i {
+      font-size: 6rem;
+  }
+
+  .about-hero-text p{
+      font-size: 2.5rem;
+  }
+.offer-section h2 {
+      font-size: 4rem;
+  }
+  .offer-section i{
+      font-size: 2.5rem;
+  }
+
+  .offer-section p{
+      font-size: 2.5rem;
+  }
+
+  .benefit-section h2 {
+      font-size: 4rem;
+  }
+
+  .benefit-section p {
+      font-size: 2.5rem;
+  }
 }
 
 @media only screen and (min-width: 1060px) and (max-width: 1800px) {
@@ -1101,6 +1132,8 @@ width: 100%;
   .social-container i {
     font-size: 2rem;
   }
+
+  
 }
 
 @media only screen and (max-width: 768px) {
