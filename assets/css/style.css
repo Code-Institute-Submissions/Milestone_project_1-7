@@ -975,7 +975,10 @@ width: 100%;
     color: var(--font-color-main);
     margin-top:100px;
 }
-
+.privacy-section{
+    color: var(--font-color-main);
+    margin-top:100px;
+}
 
 /*------------------------------------------------------Media Queries */
 
