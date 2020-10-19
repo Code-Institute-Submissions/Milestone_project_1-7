@@ -10,7 +10,6 @@ body {
   padding: 0;
   box-sizing: border-box;
   background: var(--header-bg-color);
-
 }
 
 #page-container {
@@ -97,7 +96,7 @@ body {
   height: 1px;
   display: block;
   background: var(--secondary-color);
-  max-width:100px;
+  max-width: 100px;
 }
 
 #nav-font a {
@@ -182,11 +181,11 @@ body {
 
 .hero-text h1 {
   font-size: 3.5rem;
-   text-shadow: 0 0 5px var(--secondary-color), 0 0 10px var(--secondary-color),
+  text-shadow: 0 0 5px var(--secondary-color), 0 0 10px var(--secondary-color),
     0 0 15px #fff, 0 0 20px var(--secondary-color),
     0 0 30px var(--secondary-color), 0 0 40px var(--secondary-color),
     0 0 50px var(--secondary-color), 0 0 60px var(--secondary-color);
-     font-family: "Press Start 2P", sans-serif;
+  font-family: "Press Start 2P", sans-serif;
 }
 
 .hero-text h2 {
@@ -220,7 +219,7 @@ body {
   0%,
   50%,
   100% {
-   padding: 5px 10px;
+    padding: 5px 10px;
   }
 
   20%,
@@ -568,7 +567,6 @@ a.game-cta-hero:hover {
 
 /*------------------------------------------------------ Our Events Section */
 
-
 .events h2 {
   margin-top: 20px;
 }
@@ -624,9 +622,9 @@ a.game-cta-hero:hover {
   text-transform: uppercase;
 }
 
-.weekend{
-    background-color: var(--secondary-color);
-    color:var(--header-bg-color);
+.weekend {
+  background-color: var(--secondary-color);
+  color: var(--header-bg-color);
 }
 
 .day-text {
@@ -653,8 +651,8 @@ a.game-cta-hero:hover {
   margin: 0px 25px;
 }
 
-.tournament:hover{
-    box-shadow: 0 0 5px var(--secondary-color), 0 0 10px var(--secondary-color),
+.tournament:hover {
+  box-shadow: 0 0 5px var(--secondary-color), 0 0 10px var(--secondary-color),
     0 0 15px #fff, 0 0 20px var(--secondary-color),
     0 0 30px var(--secondary-color), 0 0 40px var(--secondary-color),
     0 0 50px var(--secondary-color), 0 0 60px var(--secondary-color);
@@ -709,7 +707,13 @@ button.event-sign-up {
   width: 100%;
   height: 12.5%;
   left: 0;
-  background: linear-gradient(45deg,	rgb(255,110,199),  rgb(228, 190, 212),	rgb(245, 67, 171),	rgb(236, 37, 160));
+  background: linear-gradient(
+    45deg,
+    rgb(255, 110, 199),
+    rgb(228, 190, 212),
+    rgb(245, 67, 171),
+    rgb(236, 37, 160)
+  );
   border: none;
   padding: 5px 10px;
   color: var(--header-bg-color);
@@ -721,53 +725,37 @@ button.event-sign-up {
   background-size: 300% 300%;
 }
 
-button.event-sign-up:hover{
-
-     animation: event-btn 5s ease infinite;
-     color:var(--header-bg-color);
+button.event-sign-up:hover {
+  animation: event-btn 5s ease infinite;
+  color: var(--header-bg-color);
 }
 
-button.event-sign-up:focus,button.event-sign-up:focus-within {
-    box-shadow: none;
-    border: none;
+button.event-sign-up:focus,
+button.event-sign-up:focus-within {
+  box-shadow: none;
+  border: none;
 }
-
-
 
 @keyframes event-btn {
+  0% {
+    background-position: 0% 0%;
+  }
 
-	0% {
+  25% {
+    background-position: 50% 50%;
+  }
 
-		background-position: 0% 0%;
+  50% {
+    background-position: 100% 50%;
+  }
 
-	}
+  75% {
+    background-position: 50% 50%;
+  }
 
-    25%{
-
-        background-position: 50% 50%;
-
-    }
-
-	50% {
-
-		background-position: 100% 50%;
-
-	}
-
-
-
-    75%{
-
-        background-position: 50% 50%;
-
-    }
-
-	100% {
-
-		background-position: 0% 50%;
-
-	}
-
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 .event-border {
@@ -776,89 +764,78 @@ button.event-sign-up:focus,button.event-sign-up:focus-within {
 
 /*------------------------------------------------------Modal */
 
-.form-heading{
-    display: block;
-    text-align: left;
-    margin-bottom: 0.125rem;
+.form-heading {
+  display: block;
+  text-align: left;
+  margin-bottom: 0.125rem;
 }
-.modal-form{
-    width:100%;
-    margin-bottom: 0.5rem;
-}
-
-.modal-radio{
-    display: block;
-    float: left;
-    margin-right: 5px;
+.modal-form {
+  width: 100%;
+  margin-bottom: 0.5rem;
 }
 
-div.modal{
-    font-family: "Roboto",sans-serif;
-    color:var(--font-color-main);
+.modal-radio {
+  display: block;
+  float: left;
+  margin-right: 5px;
 }
 
-div.modal-content{
-    background-color: var(--header-bg-color);
+div.modal {
+  font-family: "Roboto", sans-serif;
+  color: var(--font-color-main);
 }
 
-input.modal-close{
-    color: var(--font-color-main);
-    background: linear-gradient(45deg,	rgb(255,110,199),  rgb(228, 190, 212),	rgb(241, 105, 184),	rgb(240, 102, 187));
-    background-size: 300% 400%;
-    border:none;
-    padding: 10px;
-    float: right;
+div.modal-content {
+  background-color: var(--header-bg-color);
 }
 
-input.modal-close:hover{
-
-     animation: modal-btn 5s ease infinite;
-     color:var(--header-bg-color);
+input.modal-close {
+  color: var(--font-color-main);
+  background: linear-gradient(
+    45deg,
+    rgb(255, 110, 199),
+    rgb(228, 190, 212),
+    rgb(241, 105, 184),
+    rgb(240, 102, 187)
+  );
+  background-size: 300% 400%;
+  border: none;
+  padding: 10px;
+  float: right;
 }
 
-
+input.modal-close:hover {
+  animation: modal-btn 5s ease infinite;
+  color: var(--header-bg-color);
+}
 
 @keyframes modal-btn {
+  0% {
+    background-position: 0% 0%;
+  }
 
-	0% {
+  25% {
+    background-position: 50% 50%;
+  }
 
-		background-position: 0% 0%;
+  50% {
+    background-position: 100% 50%;
+  }
 
-	}
+  75% {
+    background-position: 50% 50%;
+  }
 
-    25%{
-
-        background-position: 50% 50%;
-
-    }
-
-	50% {
-
-		background-position: 100% 50%;
-
-	}
-
-
-
-    75%{
-
-        background-position: 50% 50%;
-
-    }
-
-	100% {
-
-		background-position: 0% 50%;
-
-	}
-
+  100% {
+    background-position: 0% 50%;
+  }
 }
 /*------------------------------------------------------About us Page */
 
 /*------------------------------------------------------About us Hero Section */
 
-.about-hero{
-     height: 80vh;
+.about-hero {
+  height: 80vh;
   max-width: 100%;
   background: linear-gradient(
       0deg,
@@ -874,13 +851,12 @@ input.modal-close:hover{
   overflow: hidden;
 }
 
-.about-hero-text{
-    color: var(--font-color-main);
-    text-align: center;
+.about-hero-text {
+  color: var(--font-color-main);
+  text-align: center;
 }
 
 .about-hero h1 {
-     
   font-family: "Press Start 2P", sans-serif;
   text-shadow: 0 0 5px var(--secondary-color), 0 0 10px var(--secondary-color),
     0 0 15px #fff, 0 0 20px var(--secondary-color),
@@ -891,91 +867,90 @@ input.modal-close:hover{
   margin-top: -50px;
   margin-bottom: 50px;
 }
-.about-hero-text i{
- font-size: 3rem;
- margin-bottom: 20px;
+.about-hero-text i {
+  font-size: 3rem;
+  margin-bottom: 20px;
 }
 
-.about-hero-text p{
-     font-size: 1.75rem;
-     margin: 0px 12.5%;
+.about-hero-text p {
+  font-size: 1.75rem;
+  margin: 0px 12.5%;
 }
 
 /*------------------------------------------------------About us Offer Section */
-.offer-section{
-text-align: center;
-margin: 100px 0px;
+.offer-section {
+  text-align: center;
+  margin: 100px 0px;
 }
 
 .offer-section h2 {
-    margin: 80px 0px;
+  margin: 80px 0px;
 }
 
 .offer-section i {
-    font-size: 3rem;
-    color: var(--font-color-main);
-    margin-bottom: 10px;
+  font-size: 3rem;
+  color: var(--font-color-main);
+  margin-bottom: 10px;
 }
 
 .offer-section p {
-    color: var(--font-color-main);
-    font-size: 1.5rem;
-    text-transform: capitalize;
-    line-height: 40px;
+  color: var(--font-color-main);
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  line-height: 40px;
 }
 
 /*------------------------------------------------------About us Benefit Section */
-.benefit-section{
-text-align: center;
-display: flex; 
-flex-direction: column;
-align-items: center;
-
+.benefit-section {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .benefit-section h2 {
-    margin-top: 20px;
-    margin-bottom:10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
-.benefit-card{
-    background: var(--font-color-main);
-    padding: 20px 10px;
-    margin: 20px 0px;
-    width: 50%;
-    height: 200px;
-    border-radius: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+.benefit-card {
+  background: var(--font-color-main);
+  padding: 20px 10px;
+  margin: 20px 0px;
+  width: 50%;
+  height: 200px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .benefit-card i {
-width: 100%;
+  width: 100%;
 }
 
 .benefit-section i {
-    font-size: 2.5rem;
-    color: var(--header-bg-color);
-    margin: 10px;
+  font-size: 2.5rem;
+  color: var(--header-bg-color);
+  margin: 10px;
 }
 
 .benefit-section p {
-    color: var(--header-bg-color);
-    font-size: 1.5rem;
-    text-transform: capitalize;
-    font-weight: 700;
+  color: var(--header-bg-color);
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  font-weight: 700;
 }
 
 .benefit-text {
-    color: var(--secondary-color);
+  color: var(--secondary-color);
 }
 /*------------------------------------------------------Footer Pages */
 
-.footer-link-section{
-    color: var(--font-color-main);
-    margin-top:100px;
-    padding-left: 15px;
+.footer-link-section {
+  color: var(--font-color-main);
+  margin-top: 100px;
+  padding-left: 15px;
 }
 
 /*------------------------------------------------------Media Queries */
@@ -1041,7 +1016,7 @@ width: 100%;
     font-size: 2rem;
   }
 
-   /*------------------------------------------------------Event Page */
+  /*------------------------------------------------------Event Page */
   .game-hero-text h1 {
     font-size: 6rem;
     margin-top: 50px;
@@ -1093,43 +1068,42 @@ width: 100%;
     font-size: 1.5rem;
   }
 
-    /*------------------------------------------------------About Page */
-.about-hero h1 {
-      font-size: 6rem;
+  /*------------------------------------------------------About Page */
+  .about-hero h1 {
+    font-size: 6rem;
   }
 
   .about-hero-text i {
-      font-size: 6rem;
+    font-size: 6rem;
   }
 
-  .about-hero-text p{
-      font-size: 2.5rem;
+  .about-hero-text p {
+    font-size: 2.5rem;
   }
-.offer-section h2 {
-      font-size: 4rem;
+  .offer-section h2 {
+    font-size: 4rem;
   }
-  .offer-section i{
-      font-size: 2.5rem;
+  .offer-section i {
+    font-size: 2.5rem;
   }
 
-  .offer-section p{
-      font-size: 2.5rem;
+  .offer-section p {
+    font-size: 2.5rem;
   }
 
   .benefit-section h2 {
-      font-size: 4rem;
+    font-size: 4rem;
   }
 
   .benefit-section p {
-      font-size: 2.5rem;
+    font-size: 2.5rem;
   }
 }
 
 @media only screen and (min-width: 1060px) and (max-width: 1800px) {
-
-    #content-wrap {
-  padding-bottom: 15rem; /* Footer height */
-}
+  #content-wrap {
+    padding-bottom: 15rem; /* Footer height */
+  }
   .join-us-section .section-heading {
     margin-bottom: 100px;
   }
@@ -1146,39 +1120,35 @@ width: 100%;
   .social-container i {
     font-size: 2rem;
   }
-
-  
 }
 
 @media only screen and (max-width: 768px) {
-  
-  .section-heading{
-      font-size:2.5rem;
+  .section-heading {
+    font-size: 2.5rem;
   }
- 
 
   .hero-text .fa-heartbeat {
-font-size: 3rem;
-}
+    font-size: 3rem;
+  }
 
-.hero-text h1 {
-  font-size: 2.5rem;
-}
+  .hero-text h1 {
+    font-size: 2.5rem;
+  }
 
-.hero-text h2 {
-  font-size: 2rem;
-}
+  .hero-text h2 {
+    font-size: 2rem;
+  }
 
-.hero-text p {
-  font-size: 1.5rem;
-}
+  .hero-text p {
+    font-size: 1.5rem;
+  }
 
-.game-bg-lol img{
+  .game-bg-lol img {
     width: 150px;
     line-height: 200px;
-}
+  }
 
- .footer-links {
+  .footer-links {
     width: 100%;
     display: block;
   }
@@ -1187,8 +1157,8 @@ font-size: 3rem;
     padding-bottom: 33rem; /* Footer height */
   }
 
-  .join-us{
-      margin-top: -40px;
+  .join-us {
+    margin-top: -40px;
   }
 
   footer {
@@ -1220,22 +1190,21 @@ font-size: 3rem;
   }
 }
 
-@media only screen and (max-width: 386px){
-    .hero-text{
-        margin-top: 50px;
-    }
-.cta-hero{
+@media only screen and (max-width: 386px) {
+  .hero-text {
+    margin-top: 50px;
+  }
+  .cta-hero {
     margin-top: -10px;
-}
+  }
 
-.social-container p {
+  .social-container p {
     font-size: 1.25rem;
-}
+  }
 
+  /*------------------------------------------------------Event Page Media queries */
 
-/*------------------------------------------------------Event Page Media queries */
-
-/*------------------------------------------------------Event Page */
+  /*------------------------------------------------------Event Page */
   .game-hero-text h1 {
     font-size: 6rem;
     margin-top: 50px;
@@ -1349,17 +1318,16 @@ font-size: 3rem;
 
   /*------------------------------------------------------About Page  */
   .about-hero h1 {
-      font-size: 2.5rem;
+    font-size: 2.5rem;
   }
 
   .about-hero-text i {
-      font-size: 2rem;
+    font-size: 2rem;
   }
 
-  .about-hero-text p{
-      font-size: 1.5rem;
+  .about-hero-text p {
+    font-size: 1.5rem;
   }
-
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -1416,33 +1384,35 @@ font-size: 3rem;
 
   /*------------------------------------------------------About Page  */
   .about-hero h1 {
-      font-size: 2rem;
+    font-size: 2rem;
   }
 
   .about-hero-text i {
-      font-size: 2rem;
+    font-size: 2rem;
   }
 
-  .about-hero-text p{
-      font-size: 1.25rem;
+  .about-hero-text p {
+    font-size: 1.25rem;
   }
 
-  .about-offer{
-      margin-bottom: 40px;
-      border-top: 2px solid var(--secondary-color);
-      border-bottom: 2px solid var(--secondary-color);
-      padding: 20px
+  .about-offer {
+    margin-bottom: 40px;
+    border-top: 2px solid var(--secondary-color);
+    border-bottom: 2px solid var(--secondary-color);
+    padding: 20px;
   }
-.about-border-bot{
-    border-bottom: none
-}
-  .about-border{
-      
-      border-bottom: none;
+  .about-border-bot {
+    border-bottom: none;
+  }
+  .about-border {
+    border-bottom: none;
   }
 }
 
 @media only screen and (min-width: 300px) and (max-width: 575px) {
+  .active:after {
+    max-width: 100%;
+  }
   .game-hero-text h1 {
     font-size: 1.5rem;
   }
@@ -1464,7 +1434,7 @@ font-size: 3rem;
     margin: 0;
   }
 
-  .geo-heading{
+  .geo-heading {
     display: block;
     margin: 0 auto;
   }
@@ -1472,18 +1442,16 @@ font-size: 3rem;
   .geo {
     display: block;
     margin: 5px auto;
-    width:50%;
-    
+    width: 50%;
   }
-  
 
   .event-table {
     display: block;
   }
 
-  .tournament-card-container{
-      flex-direction: column;
-     align-items: center;
+  .tournament-card-container {
+    flex-direction: column;
+    align-items: center;
   }
 
   .day {
@@ -1499,35 +1467,33 @@ font-size: 3rem;
   }
   /*------------------------------------------------------About Page  */
   .about-hero h1 {
-      font-size: 1.5rem;
+    font-size: 1.5rem;
   }
 
   .about-hero-text i {
-      font-size: 1.5rem;
+    font-size: 1.5rem;
   }
 
-  .about-hero-text p{
-      font-size: 1rem;
+  .about-hero-text p {
+    font-size: 1rem;
   }
 
-  .about-offer{
-      margin-bottom: 40px;
-      border-top: 2px solid var(--secondary-color);
-      border-bottom: 2px solid var(--secondary-color);
-      padding: 20px
+  .about-offer {
+    margin-bottom: 40px;
+    border-top: 2px solid var(--secondary-color);
+    border-bottom: 2px solid var(--secondary-color);
+    padding: 20px;
   }
-.about-border-bot{
-    border-bottom: none
+  .about-border-bot {
+    border-bottom: none;
+  }
+  .about-border {
+    border-bottom: none;
+  }
+
+  .benefit-card {
+    height: 300px;
+  }
 }
-  .about-border{
-      
-      border-bottom: none;
-  }
-
-  .benefit-card{
-      height: 300px;
-  }
-}
-
 
 /*------------------------------------------------------About Page Media queries */
