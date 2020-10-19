@@ -92,7 +92,7 @@ body {
   margin-bottom: 0;
 }
 
-#nav-font li.active:after {
+.active:after {
   content: "";
   height: 1px;
   display: block;
