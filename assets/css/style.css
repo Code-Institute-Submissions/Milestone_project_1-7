@@ -97,6 +97,7 @@ body {
   height: 1px;
   display: block;
   background: var(--secondary-color);
+  max-width:100px;
 }
 
 #nav-font a {
