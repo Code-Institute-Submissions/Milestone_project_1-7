@@ -969,8 +969,11 @@ width: 100%;
 .benefit-text {
     color: var(--secondary-color);
 }
-
-
+/*------------------------------------------------------Imprint */
+.imprint-section{
+    color: var(--font-color-main);
+    margin-top:100px;
+}
 
 
 /*------------------------------------------------------Media Queries */
