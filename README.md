@@ -103,10 +103,14 @@ The W3C Markup Validator and W3C CSS Validator Services were used on every page 
 
 #### 3. As a visitor i want an easy way to navigate to the events/tournaments offered by "Pulze"
 + The event page can be easily reached via the navigation bar
+![navigation bar](https://github.com/Gonzo2500/Milestone_project_1/blob/master/documentation/screenshots/navigation-bar-screenshot.PNG "navigation bar")
+
 + the visitor can also get to the event page by clicking on the game images provided on the landing page
 ![event pages image link](https://github.com/Gonzo2500/Milestone_project_1/blob/master/documentation/screenshots/choose-your-game.PNG "event pages image link")
 
 + On the event page the user can use to button in the hero shot to automatically scroll down to the events
+![event pages hero button](https://github.com/Gonzo2500/Milestone_project_1/blob/master/documentation/screenshots/event-hero-btn-screenshot.PNG "event pages hero button")
+
 
 #### 4. As a visitor interested joining a tournament I need to understand easily which tournament starts where?(region) when? (time) and how many people can join. (Party size). To make a decision for what tournaments I might want to sign up to. 
 + Right before the user comes to the tournament cards, the user first sees the region section. A color was used to show a specific region.
@@ -115,8 +119,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used on every page 
 ![tournament cards](https://github.com/Gonzo2500/Milestone_project_1/blob/master/documentation/screenshots/tournament-cards.PNG "tournament cards")
 
 #### 5. As a visitor I want to able to sign up for a tournament, to participate on the tournament.
-+Each tournament card has a "Join" button. When a user clicks on one of these buttons a contact form opens up.
-+Because this project is focused on HTML & CSS only. The user needs to fill out the form, while also stating which game he wants to play, at which region and at which day. Other information that are asked in this form are a name, email and the party-size, if the user wants to play together with friends in a premade party.
++ Each tournament card has a "Join" button. When a user clicks on one of these buttons a contact form opens up.
++ Because this project is focused on HTML & CSS only. The user needs to fill out the form, while also stating which game he wants to play, at which region and at which day. Other information that are asked in this form are a name, email and the party-size, if the user wants to play together with friends in a premade party.
 
 ![modal form view](https://github.com/Gonzo2500/Milestone_project_1/blob/master/documentation/screenshots/modal.PNG "modal form view")
 
