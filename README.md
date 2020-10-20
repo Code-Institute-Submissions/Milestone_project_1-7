@@ -57,4 +57,4 @@ Images for the hero shots were used to create a striking effect that gains the u
  + Event Page Wireframe : [Desktop](https://github.com/Gonzo2500/Milestone_project_1/blob/master/documentation/event_desktop.pdf)    [Mobile](https://github.com/Gonzo2500/Milestone_project_1/blob/master/documentation/eventpage_mobile.pdf)
  + About Page Wireframe : [Desktop](https://github.com/Gonzo2500/Milestone_project_1/blob/master/documentation/about_us_desktop.pdf)    [Mobile](https://github.com/Gonzo2500/Milestone_project_1/blob/master/documentation/about_us_mobile.pdf)
 
-#### Testing
+### Testing
