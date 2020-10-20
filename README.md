@@ -104,4 +104,27 @@ The W3C Markup Validator and W3C CSS Validator Services were used on every page 
 
 ![Pulze benefit](https://github.com/Gonzo2500/Milestone_project_1/blob/master/documentation/screenshots/about-benefits.PNG "Pulze benefit")
 
+#### Further Testing 
++ The Website was tested on different browsers e.g. Chrome, Internet Explorer, Microsoft Edge, Mozilla Firefox and Safari 
++ The Website was viewed on different devices: Desktop, laptop, IPad and mobilephones
++ Friends and relatives were shown the website and reviewed it
 
+### Deployment
+#### Github Pages
+The following steps were used to deploy the page to Github Pages 
++ Navigate to the site’s repository.
++ Under the site repositories name, click "Settings"
++ Scroll down the page to "GitHub Pages section"
++ Under Source, click on the dropdown tab that is defaulted to "None"
++ Select "Branch: Master" then hit Save. 
++ At this point, the page will automatically refresh and the website is deployed
++ Scroll back down to the GitHub pages section to obtain the link to the  published site. 
+
+#### How to run the project locally
++ [click here to access the project repository](https://github.com/Gonzo2500/Milestone_project_1)
++ click on the dropdown menu named "Code"
++ Click the HTTPs section (it should be preselected)
++ click the clipboard icon to clone the repository
++ Open your IDE terminal
++ Type ‘git clone’ and paste in the url you just copied e.g. `$ git clone https://github.com/Gonzo2500/Milestone_project_1.git`
++ Press enter, the clone will be created
