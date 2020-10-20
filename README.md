@@ -88,6 +88,20 @@ The W3C Markup Validator and W3C CSS Validator Services were used on every page 
 #### 5. As a visitor I want to able to sign up for a tournament, to participate on the tournament.
 +Each tournament card has a "Join" button. When a user clicks on one of these buttons a contact form opens up.
 +Because this project is focused on HTML & CSS only. The user needs to fill out the form, while also stating which game he wants to play, at which region and at which day. Other information that are asked in this form are a name, email and the party-size, if the user wants to play together with friends in a premade party.
+
 ![modal form view](https://github.com/Gonzo2500/Milestone_project_1/blob/master/documentation/screenshots/modal.PNG "modal form view")
+
+#### 6. As a visitor I want to get more information on the benefits I might have when using this Service, to make a decision for or against the usage.
++ The about page was created to provide the user with more information. In the hero shot the "Pulze" vision is stated. It summarizes what the webpage tries to achieve and gives a great outlook too. 
+
+![pulze vision](https://github.com/Gonzo2500/Milestone_project_1/blob/master/documentation/screenshots/about-vision.PNG "pulze vision")
+
++ The offer section gives more detailed information on what "pulze" is doing to fulfill the vision.
+
+![pulze offer](https://github.com/Gonzo2500/Milestone_project_1/blob/master/documentation/screenshots/about-offer.PNG "pulze offer")
+
++The benefit parts explains to the user every detail on why they should use "Pulze" and what to gain from it.
+
+![Pulze benefit](https://github.com/Gonzo2500/Milestone_project_1/blob/master/documentation/screenshots/about-benefits.PNG "Pulze benefit")
 
 
