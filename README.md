@@ -41,4 +41,4 @@ As described above, this project went outside the original brief and is based on
 #### Design
 ##### Colour Scheme
 the main colors used for this Project are white (#fafafa) neon-pink (#ff6ec7) and a dark grey (rgba(15, 15, 15, 1)). Throughout the page text-shadow is used to give e.g. headlines a bright look that builts a strong contrast to the dark grey background. 
-
+![alt text](https://github.com/Gonzo2500/Milestone_project_1/blob/master/documentation/screenshots/headline-shadow-screenshot.PNG "Hero-shot index.html")
