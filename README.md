@@ -27,6 +27,7 @@ As described above, this project went outside the original brief and is based on
 + Google Chrome Developer Tools ~ Used as the core test phase throughout the project build life, testing the responsiveness of elements and CSS visuals.
 + [Pexels](https://www.pexels.com/) ~ Online Free stock imagery. Used to provide the hero shot images.
 + [Fontawesome](https://fontawesome.com/) ~ for icons 
++ [Freepnglogos] (https://www.freepnglogos.com/) ~ used for images that of the logo from the games that are shown on the Webpage
 
 ### User Experience (UX) 
 #### User Stories 
@@ -36,4 +37,8 @@ As described above, this project went outside the original brief and is based on
 + As a visitor interested joining a tournament I need to understand easily which tournament starts where?(region) when? (time) and how many people can join. (Party size). To make a decision for what tournaments i might want to sign up to. 
 + As a visitor I want to able to sign up for a tournament, to participate later on the tournament.
 + As a visitor I want to get more information on the benefits I might have when using this Service, to make a decision for or against the usage.
+
+#### Design
+##### Colour Scheme
+the main colors used for this Project are white (#fafafa) neon-pink (#ff6ec7) and a dark grey (rgba(15, 15, 15, 1)). Throughout the page text-shadow is used to give e.g. headlines a bright look that builts a strong contrast to the dark grey background. 
 
