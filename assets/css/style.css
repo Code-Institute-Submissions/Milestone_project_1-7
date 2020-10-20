@@ -884,16 +884,15 @@ input.modal-close:hover {
   max-width: 99%;
 }
 
-.offer-section div{
-    margin: 0 auto;
-    
+.offer-section div {
+  margin: 0 auto;
 }
 
 .offer-section h2 {
   margin-bottom: 80px;
 }
-.about-offer{
-    padding: 0;
+.about-offer {
+  padding: 0;
 }
 
 .offer-section i {
@@ -908,7 +907,6 @@ input.modal-close:hover {
   text-transform: capitalize;
   line-height: 40px;
 }
-
 
 /*------------------------------------------------------About us Benefit Section */
 .benefit-section {
@@ -963,28 +961,27 @@ input.modal-close:hover {
   padding-left: 15px;
 }
 
-.form-section{
-    text-align: center;
-    color: var(--font-color-main);
-    margin-top: 100px;
-    width: 100%;
-    font-family: "Roboto",sans-serif;
-    font-size: 1.5rem;
+.form-section {
+  text-align: center;
+  color: var(--font-color-main);
+  margin-top: 100px;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
 }
 
-.form-container{
-    margin: 0 auto;
-    width: 50%;
-    
+.form-container {
+  margin: 0 auto;
+  width: 50%;
 }
-.contact-label{
-    display: block;
-    text-align: left;
-    margin-bottom: 0.25rem;
+.contact-label {
+  display: block;
+  text-align: left;
+  margin-bottom: 0.25rem;
 }
 
-.form-section h1{
-    font-family: "Press Start 2P", sans-serif;
+.form-section h1 {
+  font-family: "Press Start 2P", sans-serif;
   text-shadow: 0 0 5px var(--secondary-color), 0 0 10px var(--secondary-color),
     0 0 15px #fff, 0 0 20px var(--secondary-color),
     0 0 30px var(--secondary-color), 0 0 40px var(--secondary-color),
@@ -993,25 +990,29 @@ input.modal-close:hover {
   margin-bottom: 20px;
 }
 
-.contact-form{
-    width: 100%;
+.form-container {
+    height: 70vh;
+  }
+
+.contact-form {
+  width: 100%;
 }
 
-.txt-area-width{
-    width:100%;
-    margin-top: 1.25rem;
+.txt-area-width {
+  width: 100%;
+  margin-top: 1.25rem;
 }
 
-.contact-btn{
-    background: var(--secondary-color);
-    padding: 5px 10px;
-    border: none;
-    color:var(--font-color-main);
+.contact-btn {
+  background: var(--secondary-color);
+  padding: 5px 10px;
+  border: none;
+  color: var(--font-color-main);
 }
 
-.contact-btn:hover{
-background: var(--font-color-main);
-color:var(--header-bg-color);
+.contact-btn:hover {
+  background: var(--font-color-main);
+  color: var(--header-bg-color);
 }
 
 /*------------------------------------------------------Media Queries */
@@ -1159,6 +1160,17 @@ color:var(--header-bg-color);
   .benefit-section p {
     font-size: 2.5rem;
   }
+
+  .form-section {
+    font-size: 2.5rem;
+    padding-top:100px;
+  }
+
+  .form-section h1 {
+    font-size: 6rem;
+    margin-bottom: 100px;
+  }
+  s
 }
 
 @media only screen and (min-width: 1060px) and (max-width: 1800px) {
@@ -1262,8 +1274,6 @@ color:var(--header-bg-color);
   .social-container p {
     font-size: 1.25rem;
   }
-
-
 
   a.game-cta-hero {
     font-size: 2.5rem;
@@ -1472,10 +1482,9 @@ color:var(--header-bg-color);
     margin-bottom: 0px;
   }
 
-  .cta-container{
-      margin-top: 20px;
+  .cta-container {
+    margin-top: 20px;
   }
-
 
   a.game-cta-hero {
     font-size: 1rem;
@@ -1546,16 +1555,14 @@ color:var(--header-bg-color);
   .benefit-card {
     height: 350px;
   }
-  
+
   .form-section {
     font-size: 0.75rem;
-}
+  }
 
-.form-section h1{
+  .form-section h1 {
     font-size: 1.5rem;
+  }
 }
-}
-
-
 
 /*------------------------------------------------------About Page Media queries */
