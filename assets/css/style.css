@@ -1217,7 +1217,7 @@ input.modal-close:hover {
   /*------------------------------------------------------Event Page */
   .game-hero-text h1 {
     font-size: 6rem;
-    margin-top: 50px;
+    margin-top: 90px;
   }
 
   .how-to i {
@@ -1226,7 +1226,7 @@ input.modal-close:hover {
 
   .how-to p {
     font-size: 2.5rem;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
   }
 
   a.game-cta-hero {
