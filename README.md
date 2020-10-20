@@ -139,3 +139,5 @@ The following steps were used to deploy the page to Github Pages
 The [Bootstrap](https://getbootstrap.com/) library was used to structure parts of the website
 + The Navigation bar (mainly the collapse function on small screens)
 + the modal on the event page
+
+To keep the footer at the bottom of the page [CSS-tricks](https://css-tricks.com/couple-takes-sticky-footer/) provided an easy solution, which was used in this project
