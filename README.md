@@ -8,26 +8,7 @@ This Milestone project creation is the last step of learning and study from the 
 
 The Website provides the user with the ability to look for tournaments, sign up for a specific day, region and game.
 
-### Functionality 
-The project uses the Bootstrap Framework combined with flex to create a multi-page fully responsive, Desktop-First approach Website. It is completely within the scope of the guidelines of the milestone requirements and does not use any back-end functions or  any custom javascript. With that in mind please note that although this website contains "forms" i.e. modals on the event.html and a contact form on contact.html they do not alert anyone that a sign up has been created and will not populate any server database.
-
-Both forms hold data validation and all fields residing within are set to required ensuring information submitted is of the correct format.
-
-The fonts used throughout the site were imported into the HTML of each page from Google Fonts and are called 'Roboto' and "Press Start 2p".
-
-### Technologies Used
-+ HTML ~ main Language used to structure the individual pages of the website.
-+ CSS ~ styling language used to format and visually build upon the accompanying HTML.
-+ [Bootstrap Framework](https://getbootstrap.com/) ~ Used as the core structuring layout building blocks of the website, ensuring responsive size display.
-+ [Gitpod](https://www.gitpod.io/) ~ Gitpod was used as the preferred IDE for this project.
-+ Gitpod Terminal ~ Used to commit to local repository and further push to Github Repo ensuring version controlling of the project build.
-+ [Git](https://git-scm.com/) ~ Version control system for tracking changes to your coding projects.
-+ [Github](https://github.com/) ~ Used to host the deployed website and repository of all previous versions of the build.
-+ Google Chrome Developer Tools ~ Used as the core test phase throughout the project build life, testing the responsiveness of elements and CSS visuals.
-+ [Pexels](https://www.pexels.com/) ~ Online Free stock imagery. Used to provide the hero shot images.
-+ [Fontawesome](https://fontawesome.com/) ~ for icons 
-+ [Freepnglogos](https://www.freepnglogos.com/) ~ used for images that of the logo from the games that are shown on the Webpage
-+ [Balsamiq](https://balsamiq.com/) ~ used to create the wireframes for this project
+Here is a link to the deployed [site](https://gonzo2500.github.io/Milestone_project_1)
 
 ### User Experience (UX) 
 #### User Stories 
@@ -58,6 +39,51 @@ A Desktop First approach was used for the design of the wireframes.  This aproac
  + Home Page Wireframe : [Desktop](https://github.com/Gonzo2500/Milestone_project_1/blob/master/documentation/lp_desktop.pdf)    [Mobile](https://github.com/Gonzo2500/Milestone_project_1/blob/master/documentation/lp_mobile.pdf)
  + Event Page Wireframe : [Desktop](https://github.com/Gonzo2500/Milestone_project_1/blob/master/documentation/event_desktop.pdf)    [Mobile](https://github.com/Gonzo2500/Milestone_project_1/blob/master/documentation/eventpage_mobile.pdf)
  + About Page Wireframe : [Desktop](https://github.com/Gonzo2500/Milestone_project_1/blob/master/documentation/about_us_desktop.pdf)    [Mobile](https://github.com/Gonzo2500/Milestone_project_1/blob/master/documentation/about_us_mobile.pdf)
+
+
+### Features
++ fully responsive website
++ sign up to different tournaments
++ contact form for requests
++ Both forms hold data validation and all fields residing within are set to required ensuring information submitted is of the correct format.
+
+The fonts used throughout the site were imported into the HTML of each page from Google Fonts and are called 'Roboto' and "Press Start 2p".
+
+Disclaimer:
+Although this website contains "forms" i.e. modals on the event.html and a contact form on contact.html they do not alert anyone that a sign up has been created and will not populate any server database.
+#### User Stories
+1. As a visitor of the site I want a clear overview of games that are offered. So that I can see if the offers draw my interest
+2. As a visitor I want to see links to social accounts from "Pulze", so I can see how many people are following and using "Pulze" and get more trust.
+3. As a visitor i want an easy way to navigate to the events/tournaments offered by "Pulze"
+4. As a visitor interested joining a tournament I need to understand easily which tournament starts where?(region) when? (time) and how many people can join. (Party size). To make a decision for what tournaments I might want to sign up to. 
+5. As a visitor I want to able to sign up for a tournament, to participate on the tournament.
+6. As a visitor I want to get more information on the benefits I might have when using this Service, to make a decision for or against the usage.
+
+#### Future Features  
+##### Theme switch
+In the [style.css](https://github.com/Gonzo2500/Milestone_project_1/blob/master/assets/css/style.css) file the colors that are used in this project are mostly stored in variables. There were 2 reasons for this, first it makes it less error-prone to misplace color. The second reson was a feature idea of switching the color theme of the website via an option in the navigation bar. Here you can find an <a href="(https://alligator.io/) target="_blank">example.</a>
+The idea was to reverse engineer it and switch variables with Javascript. As Javascript is not in the scope of this project, the feature will be added in the future.
+ 
+##### Modal form
+To sign up for a tournament right now you have to state everything in detail. That means that information like region, game and day are not preselected via the card the user clicks on. With Javascript the implemented feature would be: The User clicks on a specific card and just needs to fill out name, email and party-size.
+
+##### Tournament cards
+![tournament cards ](https://github.com/Gonzo2500/Milestone_project_1/blob/master/documentation/screenshots/tournament-cards.PNG "tournament cards")
+Right know only the "Join" button of tournament cards is clickable. In Future the whole card will be clickable and a modal will appear. This will be handled with Javascript and replacing the bootstrap modal.
+
+### Technologies Used
++ HTML ~ main Language used to structure the individual pages of the website.
++ CSS ~ styling language used to format and visually build upon the accompanying HTML.
++ [Bootstrap Framework](https://getbootstrap.com/) ~ Used as the core structuring layout building blocks of the website, ensuring responsive size display.
++ [Gitpod](https://www.gitpod.io/) ~ Gitpod was used as the preferred IDE for this project.
++ Gitpod Terminal ~ Used to commit to local repository and further push to Github Repo ensuring version controlling of the project build.
++ [Git](https://git-scm.com/) ~ Version control system for tracking changes to your coding projects.
++ [Github](https://github.com/) ~ Used to host the deployed website and repository of all previous versions of the build.
++ Google Chrome Developer Tools ~ Used as the core test phase throughout the project build life, testing the responsiveness of elements and CSS visuals.
++ [Pexels](https://www.pexels.com/) ~ Online Free stock imagery. Used to provide the hero shot images.
++ [Fontawesome](https://fontawesome.com/) ~ for icons 
++ [Freepnglogos](https://www.freepnglogos.com/) ~ used for images that of the logo from the games that are shown on the Webpage
++ [Balsamiq](https://balsamiq.com/) ~ used to create the wireframes for this project
 
 ### Testing
 The W3C Markup Validator and W3C CSS Validator Services were used on every page of the project to ensure there were no syntax errors.
