@@ -104,6 +104,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used on every page 
 #### 3. As a visitor i want an easy way to navigate to the events/tournaments offered by "Pulze"
 + The event page can be easily reached via the navigation bar
 + the visitor can also get to the event page by clicking on the game images provided on the landing page
+![event pages image link](https://github.com/Gonzo2500/Milestone_project_1/blob/master/documentation/screenshots/choose-your-game.PNG "event pages image link")
+
 + On the event page the user can use to button in the hero shot to automatically scroll down to the events
 
 #### 4. As a visitor interested joining a tournament I need to understand easily which tournament starts where?(region) when? (time) and how many people can join. (Party size). To make a decision for what tournaments I might want to sign up to. 
