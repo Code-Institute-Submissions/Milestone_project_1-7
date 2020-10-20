@@ -1263,56 +1263,10 @@ input.modal-close:hover {
   }
 }
 
-@media only screen and (max-width: 386px) {
-  .hero-text {
-    margin-top: 50px;
-  }
-  .cta-hero {
-    margin-top: -10px;
-  }
 
-  .social-container p {
-    font-size: 1.25rem;
-  }
-
-  a.game-cta-hero {
-    font-size: 2.5rem;
-    padding: 10px 20px;
-  }
-
-  a.game-cta-hero:hover {
-    color: var(--header-bg-color);
-    background-color: #fafafa;
-    animation: pulse-4k 1.8s linear 3;
-    text-decoration: none;
-  }
-
-  @keyframes pulse-4k {
-    0%,
-    50%,
-    100% {
-      padding: 10px 20px;
-    }
-
-    20%,
-    70% {
-      padding: 20px 30px;
-    }
-
-    30%,
-    90% {
-      padding: 8px 19px;
-    }
-  }
-  .geo-heading {
-    font-size: 2.5rem;
-  }
-
-  .geo {
-    font-size: 1.5rem;
-  }
-}
 @media only screen and (min-width: 1024px) and (max-width: 1300px) {
+     /*------------------------------------------------------Event Page  */
+
   .tournament {
     width: 200px;
     height: 300px;
@@ -1337,6 +1291,8 @@ input.modal-close:hover {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
+      /*------------------------------------------------------Event Page  */
+
   .tournament {
     width: 180px;
     height: 300px;
@@ -1465,6 +1421,58 @@ input.modal-close:hover {
   }
 }
 
+@media only screen and (max-width: 386px) {
+  .hero-text {
+    margin-top: 50px;
+  }
+  .cta-hero {
+    margin-top: -10px;
+  }
+
+  .social-container p {
+    font-size: 1.25rem;
+  }
+
+  /*------------------------------------------------------Event Page  */
+
+  a.game-cta-hero {
+    font-size: 2.5rem;
+    padding: 10px 20px;
+  }
+
+  a.game-cta-hero:hover {
+    color: var(--header-bg-color);
+    background-color: #fafafa;
+    animation: pulse-4k 1.8s linear 3;
+    text-decoration: none;
+  }
+
+  @keyframes pulse-4k {
+    0%,
+    50%,
+    100% {
+      padding: 10px 20px;
+    }
+
+    20%,
+    70% {
+      padding: 20px 30px;
+    }
+
+    30%,
+    90% {
+      padding: 8px 19px;
+    }
+  }
+  .geo-heading {
+    font-size: 2.5rem;
+  }
+
+  .geo {
+    font-size: 1.5rem;
+  }
+}
+
 @media only screen and (min-width: 280px) and (max-width: 575px) {
   .active:after {
     max-width: 100%;
@@ -1565,4 +1573,4 @@ input.modal-close:hover {
   }
 }
 
-/*------------------------------------------------------About Page Media queries */
+
