@@ -15,8 +15,6 @@ Both forms hold data validation and all fields residing within are set to requir
 
 The fonts used throughout the site were imported into the HTML of each page from Google Fonts and are called 'Roboto' and "Press Start 2p".
 
-As described above, this project went outside the original brief and is based on the needs of a real-life local company and will be used to fulfill a considerable gap in their entry stake into the marketplace. Given this, the functionality of the website will evolve over time to incorporate a Merchandise store, interactive Video Tours, and Online bookings & payments
-
 ### Technologies Used
 + HTML ~ main Language used to structure the individual pages of the website.
 + CSS ~ styling language used to format and visually build upon the accompanying HTML.
@@ -42,7 +40,9 @@ As described above, this project went outside the original brief and is based on
 
 #### Design
 ##### Colour Scheme
-the main colors used for this Project are white (#fafafa) neon-pink (#ff6ec7) and a dark grey (rgba(15, 15, 15, 1)). Throughout the page text-shadow is used to give e.g. headlines a bright look that builts a strong contrast to the dark grey background. 
+the main colors used for this Project are white (#fafafa) neon-pink (#ff6ec7) and a dark grey (rgba(15, 15, 15, 1)). These colors together give the website a appereance close to style used for vaporwave art etc.
+
+Throughout the page text-shadow is used to give e.g. headlines a bright look that builts a strong contrast to the dark grey background. 
 ![example of text-shadow ](https://github.com/Gonzo2500/Milestone_project_1/blob/master/documentation/screenshots/headline-shadow-screenshot.PNG "example of text-shadow")
 
 ##### Typography
@@ -51,18 +51,18 @@ The Roboto font is the main font used in this project. It provides a natural rea
 Press Start 2P is a bitmap font based on the font design from 1980s Namco arcade games. It was used mostly for headers. It gives the webpage an arcade feeling, which suits the theme "gaming" perfectly. The reason for the scarce usage of this font was to keep the easy readable. As a Fallback Sans-serif was used, in case the font doesn't load to the webpage correctly.
 
 ##### Imagery
-Images for the hero shots were used to create a striking effect that gains the users/visitors attention. Game logos were used to show what kind of games are offered on the webage.
+Images for the hero shots were used to create a striking effect that gains the users/visitors attention. Game logos were used to show what kind of games are offered on the webpage, because for users that play these games remember these images (logos) and though get a better understanding of the purpose of this website .
  
 ##### Wireframes
-A Desktop First approach was used for the design of the wireframes.  This aproach was used because the webpage revolves around esport and gaming. Users likely use their desktops or notebooks to visit the site. 
+A Desktop First approach was used for the design of the wireframes.  This aproach was used because the webpage revolves around esport and gaming. Users likely use their desktops or notebooks to visit the site. Because most traffic nowadays comes from mobile users, work was provided to make sure that the website is repsonsive on all screen sizes.
  + Home Page Wireframe : [Desktop](https://github.com/Gonzo2500/Milestone_project_1/blob/master/documentation/lp_desktop.pdf)    [Mobile](https://github.com/Gonzo2500/Milestone_project_1/blob/master/documentation/lp_mobile.pdf)
  + Event Page Wireframe : [Desktop](https://github.com/Gonzo2500/Milestone_project_1/blob/master/documentation/event_desktop.pdf)    [Mobile](https://github.com/Gonzo2500/Milestone_project_1/blob/master/documentation/eventpage_mobile.pdf)
  + About Page Wireframe : [Desktop](https://github.com/Gonzo2500/Milestone_project_1/blob/master/documentation/about_us_desktop.pdf)    [Mobile](https://github.com/Gonzo2500/Milestone_project_1/blob/master/documentation/about_us_mobile.pdf)
 
 ### Testing
 The W3C Markup Validator and W3C CSS Validator Services were used on every page of the project to ensure there were no syntax errors.
-+[HTML Validator](https://github.com/Gonzo2500/Milestone_project_1/blob/master/documentation/screenshots/screenshot-html.PNG)
-+[CSS Validator](https://github.com/Gonzo2500/Milestone_project_1/blob/master/documentation/screenshots/css-validator.PNG)
++ [HTML Validator](https://github.com/Gonzo2500/Milestone_project_1/blob/master/documentation/screenshots/screenshot-html.PNG)
++ [CSS Validator](https://github.com/Gonzo2500/Milestone_project_1/blob/master/documentation/screenshots/css-validator.PNG)
 
 #### Testing User Stories from User Experience (UX) Section
 #### 1. As a visitor of the site I want a clear overview of games that are offered. So that I can see if the offers draw my interest
