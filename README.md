@@ -35,8 +35,8 @@ As described above, this project went outside the original brief and is based on
 + As a visitor of the site I want a clear overview of games that are offered. So that I can see if the offers draw my interest
 + As a visitor I want to see links to social accounts from "Pulze", so I can see how many people are following and using "Pulze" and get more trust.  
 + As a visitor i want an easy way to navigate to the events/tournaments offered by "Pulze"
-+ As a visitor interested joining a tournament I need to understand easily which tournament starts where?(region) when? (time) and how many people can join. (Party size). To make a decision for what tournaments i might want to sign up to. 
-+ As a visitor I want to able to sign up for a tournament, to participate later on the tournament.
++ As a visitor interested joining a tournament I need to understand easily which tournament starts where?(region) when? (time) and how many people can join. (Party size). To make a decision for what tournaments I might want to sign up to. 
++ As a visitor I want to able to sign up for a tournament, to participate on the tournament.
 + As a visitor I want to get more information on the benefits I might have when using this Service, to make a decision for or against the usage.
 
 #### Design
@@ -64,13 +64,30 @@ The W3C Markup Validator and W3C CSS Validator Services were used on every page 
 +[CSS Validator](https://github.com/Gonzo2500/Milestone_project_1/blob/master/documentation/screenshots/css-validator.PNG)
 
 #### Testing User Stories from User Experience (UX) Section
-1. As a visitor of the site I want a clear overview of games that are offered. So that I can see if the offers draw my interest
+#### 1. As a visitor of the site I want a clear overview of games that are offered. So that I can see if the offers draw my interest
 + On the hero shot the user can see a notable  [button](https://github.com/Gonzo2500/Milestone_project_1/blob/master/documentation/screenshots/btn-games.PNG) in the hero section. When clicking on the button the user will be sent to the games overview section. 
 ![games overview section ](https://github.com/Gonzo2500/Milestone_project_1/blob/master/documentation/screenshots/choose-your-game.PNG "games overview section")
 
-2. As a visitor I want to see links to social accounts from "Pulze", so I can see how many people are following and using "Pulze" and get more trust.  
+#### 2. As a visitor I want to see links to social accounts from "Pulze", so I can see how many people are following and using "Pulze" and get more trust.  
 + Social links are shown on the landing page. For this an extra section was created.
 ![social links section ](https://github.com/Gonzo2500/Milestone_project_1/blob/master/documentation/screenshots/join-us.PNG "social links section")
 + Because this section is just on the landing page, social links are also provided in the footer. So Visitors can access the "Pulze" social media accounts from everywhere
 ![footer of the page with social links](https://github.com/Gonzo2500/Milestone_project_1/blob/master/documentation/screenshots/footer.PNG "footer of the page with social links")
+
+#### 3. As a visitor i want an easy way to navigate to the events/tournaments offered by "Pulze"
++ The event page can be easily reached via the navigation bar
++ the visitor can also get to the event page by clicking on the game images provided on the landing page
++ On the event page the user can use to button in the hero shot to automatically scroll down to the events
+
+#### 4. As a visitor interested joining a tournament I need to understand easily which tournament starts where?(region) when? (time) and how many people can join. (Party size). To make a decision for what tournaments I might want to sign up to. 
++ Right before the user comes to the tournament cards, the user first sees the region section. A color was used to show a specific region.
+![region section on event page](https://github.com/Gonzo2500/Milestone_project_1/blob/master/documentation/screenshots/region.PNG "region section on event page")
++ The tournament cards use the same colors to indicate the region for the tournament. In the card the user can find more information on time and party size. Because the cards are sorted by weekdays, the user is always able to know when a tournament takes place.
+![tournament cards](https://github.com/Gonzo2500/Milestone_project_1/blob/master/documentation/screenshots/tournament-cards.PNG "tournament cards")
+
+#### 5. As a visitor I want to able to sign up for a tournament, to participate on the tournament.
++Each tournament card has a "Join" button. When a user clicks on one of these buttons a contact form opens up.
++Because this project is focused on HTML & CSS only. The user needs to fill out the form, while also stating which game he wants to play, at which region and at which day. Other information that are asked in this form are a name, email and the party-size, if the user wants to play together with friends in a premade party.
+![modal form view](https://github.com/Gonzo2500/Milestone_project_1/blob/master/documentation/screenshots/modal.PNG "modal form view")
+
 
