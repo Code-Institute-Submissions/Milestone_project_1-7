@@ -1212,22 +1212,7 @@ input.modal-close:hover {
     font-size: 1.25rem;
   }
 
-  /*------------------------------------------------------Event Page Media queries */
 
-  /*------------------------------------------------------Event Page */
-  .game-hero-text h1 {
-    font-size: 6rem;
-    margin-top: 90px;
-  }
-
-  .how-to i {
-    font-size: 6rem;
-  }
-
-  .how-to p {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-  }
 
   a.game-cta-hero {
     font-size: 2.5rem;
