@@ -2,11 +2,11 @@
 ![Pulze Project](https://github.com/Gonzo2500/Milestone_project_1/blob/master/documentation/screenshots/responsive-screenshot.PNG "Hero-shot index.html")
 ## Pulze Gaming League Responsive Website Project 
 ### Background 
-This Milestone project creation is the last step of learning and study from the first three modules of the Full Stack Developer Course, HTML, CSS & User Centric Frontend Development, to build a mobile-first fully responsive website. In this case for the fictional company "Pulze". 
+This milestone project creation is the last step of learning and study from the first three modules of the Full Stack Developer Course, HTML, CSS & User Centric Frontend Development, to build a mobile-first fully responsive website. In this case for the fictional company "Pulze". 
 
 ![Hero-shot](https://github.com/Gonzo2500/Milestone_project_1/blob/master/documentation/screenshots/screenshot-hero.PNG "Hero-shot index.html")
 
-The Website provides the user with the ability to look for tournaments, sign up for a specific day, region and game.
+The website provides the user with the ability to look for tournaments, sign up for a specific day, region and game.
 
 Here is a link to the deployed [site](https://gonzo2500.github.io/Milestone_project_1)
 
@@ -15,19 +15,19 @@ Here is a link to the deployed [site](https://gonzo2500.github.io/Milestone_proj
 + As a visitor of the site I want a clear overview of games that are offered. So that I can see if the offers draw my interest
 + As a visitor I want to see links to social accounts from "Pulze", so I can see how many people are following and using "Pulze" and get more trust.  
 + As a visitor i want an easy way to navigate to the events/tournaments offered by "Pulze"
-+ As a visitor interested joining a tournament I need to understand easily which tournament starts where?(region) when? (time) and how many people can join. (Party size). To make a decision for what tournaments I might want to sign up to. 
-+ As a visitor I want to able to sign up for a tournament, to participate on the tournament.
-+ As a visitor I want to get more information on the benefits I might have when using this Service, to make a decision for or against the usage.
++ As a visitor interested joining a tournament I need to understand easily which tournament starts where?(region) when? (time) and how many people can join. (party size). To make a decision for what tournaments I might want to sign up to. 
++ As a visitor I want to able to sign up for a tournament, to later be able to participate on the tournament.
++ As a visitor I want to get more information on the benefits I might have when using this service, to make a decision for or against the usage.
 
 #### Design
 ##### Colour Scheme
-the main colors used for this Project are white (#fafafa) neon-pink (#ff6ec7) and a dark grey (rgba(15, 15, 15, 1)). These colors together give the website a appereance close to style used for vaporwave art etc.
+the main colors used for this project are white (#fafafa) neon-pink (#ff6ec7) and a dark grey (rgba(15, 15, 15, 1)). These colors together give the website a appearance close to style used for <a href="https://en.wikipedia.org/wiki/Vaporwave">vaporwave</a> art.
 
 Throughout the page text-shadow is used to give e.g. headlines a bright look that builts a strong contrast to the dark grey background. 
 ![example of text-shadow ](https://github.com/Gonzo2500/Milestone_project_1/blob/master/documentation/screenshots/headline-shadow-screenshot.PNG "example of text-shadow")
 
 ##### Typography
-The Roboto font is the main font used in this project. It provides a natural reading rhythm giving the webpage a nice look while also bringing accessibility in terms of easy to read text. As a Fallback Sans-serif was used, in case the font doesn't load to the webpage correctly.
+The Roboto font is the main font used in this project. It provides a natural reading rhythm giving the webpage a nice look while also bringing accessibility in terms of easy to read text. As a fallback Sans-serif was used, in case the font doesn't load to the webpage correctly.
 
 Press Start 2P is a bitmap font based on the font design from 1980s Namco arcade games. It was used mostly for headers. It gives the webpage an arcade feeling, which suits the theme "gaming" perfectly. The reason for the scarce usage of this font was to keep the easy readable. As a Fallback Sans-serif was used, in case the font doesn't load to the webpage correctly.
 
@@ -35,7 +35,7 @@ Press Start 2P is a bitmap font based on the font design from 1980s Namco arcade
 Images for the hero shots were used to create a striking effect that gains the users/visitors attention. Game logos were used to show what kind of games are offered on the webpage, because for users that play these games remember these images (logos) and though get a better understanding of the purpose of this website .
  
 ##### Wireframes
-A Desktop First approach was used for the design of the wireframes.  This aproach was used because the webpage revolves around esport and gaming. Users likely use their desktops or notebooks to visit the site. Because most traffic nowadays comes from mobile users, work was provided to make sure that the website is repsonsive on all screen sizes.
+A Desktop First approach was used for the design of the wireframes.  This aproach was used because the webpage revolves around esports and gaming. Users likely use their desktops or notebooks to visit the site. Because most traffic nowadays comes from mobile users, work was provided to make sure that the website is repsonsive on all screen sizes.
  + Home Page Wireframe : [Desktop](https://github.com/Gonzo2500/Milestone_project_1/blob/master/documentation/lp_desktop.pdf)    [Mobile](https://github.com/Gonzo2500/Milestone_project_1/blob/master/documentation/lp_mobile.pdf)
  + Event Page Wireframe : [Desktop](https://github.com/Gonzo2500/Milestone_project_1/blob/master/documentation/event_desktop.pdf)    [Mobile](https://github.com/Gonzo2500/Milestone_project_1/blob/master/documentation/eventpage_mobile.pdf)
  + About Page Wireframe : [Desktop](https://github.com/Gonzo2500/Milestone_project_1/blob/master/documentation/about_us_desktop.pdf)    [Mobile](https://github.com/Gonzo2500/Milestone_project_1/blob/master/documentation/about_us_mobile.pdf)
@@ -51,6 +51,7 @@ The fonts used throughout the site were imported into the HTML of each page from
 
 Disclaimer:
 Although this website contains "forms" i.e. modals on the event.html and a contact form on contact.html they do not alert anyone that a sign up has been created and will not populate any server database.
+
 #### User Stories
 1. As a visitor of the site I want a clear overview of games that are offered. So that I can see if the offers draw my interest
 2. As a visitor I want to see links to social accounts from "Pulze", so I can see how many people are following and using "Pulze" and get more trust.
@@ -60,12 +61,16 @@ Although this website contains "forms" i.e. modals on the event.html and a conta
 6. As a visitor I want to get more information on the benefits I might have when using this Service, to make a decision for or against the usage.
 
 #### Future Features  
+
+##### Form Data
+The data users enter in the form will be sent. This could be to an email or a created database.
+
 ##### Theme switch
 In the [style.css](https://github.com/Gonzo2500/Milestone_project_1/blob/master/assets/css/style.css) file the colors that are used in this project are mostly stored in variables. There were 2 reasons for this, first it makes it less error-prone to misplace color. The second reson was a feature idea of switching the color theme of the website via an option in the navigation bar. Here you can find an <a href="(https://alligator.io/) target="_blank">example.</a>
 The idea was to reverse engineer it and switch variables with Javascript. As Javascript is not in the scope of this project, the feature will be added in the future.
  
 ##### Modal form
-To sign up for a tournament right now you have to state everything in detail. That means that information like region, game and day are not preselected via the card the user clicks on. With Javascript the implemented feature would be: The User clicks on a specific card and just needs to fill out name, email and party-size.
+To sign up for a tournament right now everything has to be stated in detail. That means that information like region, game and day are not preselected via the card the user clicks on. With Javascript the implemented feature would be: The User clicks on a specific card and just needs to fill out name, email and party-size.
 
 ##### Tournament cards
 ![tournament cards ](https://github.com/Gonzo2500/Milestone_project_1/blob/master/documentation/screenshots/tournament-cards.PNG "tournament cards")
@@ -155,9 +160,9 @@ The following steps were used to deploy the page to Github Pages
 
 #### How to run the project locally
 + [click here to access the project repository](https://github.com/Gonzo2500/Milestone_project_1)
-+ click on the dropdown menu named "Code"
++ Click on the dropdown menu named "Code"
 + Click the HTTPs section (it should be preselected)
-+ click the clipboard icon to clone the repository
++ Click the clipboard icon to clone the repository
 + Open your IDE terminal
 + Type ‘git clone’ and paste in the url you just copied e.g. `$ git clone https://github.com/Gonzo2500/Milestone_project_1.git`
 + Press enter, the clone will be created
