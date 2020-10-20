@@ -41,4 +41,18 @@ As described above, this project went outside the original brief and is based on
 #### Design
 ##### Colour Scheme
 the main colors used for this Project are white (#fafafa) neon-pink (#ff6ec7) and a dark grey (rgba(15, 15, 15, 1)). Throughout the page text-shadow is used to give e.g. headlines a bright look that builts a strong contrast to the dark grey background. 
-![alt text](https://github.com/Gonzo2500/Milestone_project_1/blob/master/documentation/screenshots/headline-shadow-screenshot.PNG "Hero-shot index.html")
+![alt text](https://github.com/Gonzo2500/Milestone_project_1/blob/master/documentation/screenshots/headline-shadow-screenshot.PNG "example of text-shadow")
+
+##### Typography
+The Roboto font is the main font used in this project. It provides a natural reading rhythm giving the webpage a nice look while also bringing accessibility in terms of easy to read text. As a Fallback Sans-serif was used, in case the font doesn't load to the webpage correctly.
+
+Press Start 2P is a bitmap font based on the font design from 1980s Namco arcade games. It was used mostly for headers. It gives the webpage an arcade feeling, which suits the theme "gaming" perfectly. The reason for the scarce usage of this font was to keep the easy readable. As a Fallback Sans-serif was used, in case the font doesn't load to the webpage correctly.
+
+##### Imagery
+Images for the hero shots were used to create a striking effect that gains the users/visitors attention. Game logos were used to show what kind of games are offered on the webage.
+ 
+##### Wireframes
+ + Home Page Wireframe : [Desktop] (https://github.com/Gonzo2500/Milestone_project_1/blob/master/documentation/lp_desktop.pdf) [Mobile] (https://github.com/Gonzo2500/Milestone_project_1/blob/master/documentation/lp_mobile.pdf)
+ + Event Page Wireframe : [Desktop] (https://github.com/Gonzo2500/Milestone_project_1/blob/master/documentation/event_desktop.pdf) [Mobile] (https://github.com/Gonzo2500/Milestone_project_1/blob/master/documentation/eventpage_mobile.pdf)
+ + About Page Wireframe : [Desktop] (https://github.com/Gonzo2500/Milestone_project_1/blob/master/documentation/about_us_desktop.pdf) [Mobile] (https://github.com/Gonzo2500/Milestone_project_1/blob/master/documentation/about_us_mobile.pdf)
+
