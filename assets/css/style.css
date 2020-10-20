@@ -450,12 +450,12 @@ footer h3 a:hover {
 }
 
 .how-to i {
-	font-size: 3rem;
+	font-size: 2rem;
 	margin-bottom: 20px;
 }
 
 .how-to p {
-	font-size: 1.5rem;
+	font-size: 1.25rem;
 	text-transform: uppercase;
 }
 
@@ -1015,10 +1015,10 @@ input.modal-close:hover {
 		margin-top: 50px;
 	}
 	.how-to i {
-		font-size: 6rem;
+		font-size: 4rem;
 	}
 	.how-to p {
-		font-size: 2.5rem;
+		font-size: 2.25rem;
 		margin-bottom: 50px;
 	}
 	a.game-cta-hero {
