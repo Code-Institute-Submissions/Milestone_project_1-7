@@ -1418,7 +1418,13 @@ input.modal-close:hover {
 
   .how-to p {
     font-size: 0.75rem;
+    margin-bottom: 0px;
   }
+
+  .cta-container{
+      margin-top: 20px;
+  }
+
 
   a.game-cta-hero {
     font-size: 1rem;
