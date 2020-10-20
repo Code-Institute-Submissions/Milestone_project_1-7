@@ -1,9 +1,10 @@
 # Milestone Project 1
+![Pulze Project](https://github.com/Gonzo2500/Milestone_project_1/blob/master/documentation/screenshots/responsive-screenshot.PNG "Hero-shot index.html")
 ## Pulze Gaming League Responsive Website Project 
 ### Background 
 This Milestone project creation is the last step of learning and study from the first three modules of the Full Stack Developer Course, HTML, CSS & User Centric Frontend Development, to build a mobile-first fully responsive website. In this case for the fictional company "Pulze". 
 
-![alt text](https://github.com/Gonzo2500/Milestone_project_1/blob/master/documentation/screenshots/screenshot-hero.PNG "Hero-shot index.html")
+![Hero-shot](https://github.com/Gonzo2500/Milestone_project_1/blob/master/documentation/screenshots/screenshot-hero.PNG "Hero-shot index.html")
 
 The Website provides the user with the ability to look for tournaments, sign up for a specific day, region and game.
 
@@ -128,3 +129,15 @@ The following steps were used to deploy the page to Github Pages
 + Open your IDE terminal
 + Type ‘git clone’ and paste in the url you just copied e.g. `$ git clone https://github.com/Gonzo2500/Milestone_project_1.git`
 + Press enter, the clone will be created
+
+### Credits
+
+#### Content
++ all content of this site was written by the website developer
+
+#### Code
+The [Bootstrap](https://getbootstrap.com/) library was used to structure parts of the website
++ The Navigation bar (mainly the collapse function on small screens)
++ the modal on the event page
+
+To keep the footer at the bottom of the page [CSS-tricks](https://css-tricks.com/couple-takes-sticky-footer/) provided an easy solution, which was used in this project
