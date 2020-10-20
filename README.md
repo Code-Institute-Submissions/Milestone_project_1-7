@@ -129,3 +129,13 @@ The following steps were used to deploy the page to Github Pages
 + Open your IDE terminal
 + Type ‘git clone’ and paste in the url you just copied e.g. `$ git clone https://github.com/Gonzo2500/Milestone_project_1.git`
 + Press enter, the clone will be created
+
+### Credits
+
+#### Content
++ all content of this site was written by the website developer
+
+#### Code
+The [Bootstrap](https://getbootstrap.com/) library was used to structure parts of the website
++ The Navigation bar (mainly the collapse function on small screens)
++ the modal on the event page
