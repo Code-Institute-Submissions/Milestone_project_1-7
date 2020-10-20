@@ -71,20 +71,6 @@ To sign up for a tournament right now you have to state everything in detail. Th
 ![tournament cards ](https://github.com/Gonzo2500/Milestone_project_1/blob/master/documentation/screenshots/tournament-cards.PNG "tournament cards")
 Right know only the "Join" button of tournament cards is clickable. In Future the whole card will be clickable and a modal will appear. This will be handled with Javascript and replacing the bootstrap modal.
 
-### Technologies Used
-+ HTML ~ main Language used to structure the individual pages of the website.
-+ CSS ~ styling language used to format and visually build upon the accompanying HTML.
-+ [Bootstrap Framework](https://getbootstrap.com/) ~ Used as the core structuring layout building blocks of the website, ensuring responsive size display.
-+ [Gitpod](https://www.gitpod.io/) ~ Gitpod was used as the preferred IDE for this project.
-+ Gitpod Terminal ~ Used to commit to local repository and further push to Github Repo ensuring version controlling of the project build.
-+ [Git](https://git-scm.com/) ~ Version control system for tracking changes to your coding projects.
-+ [Github](https://github.com/) ~ Used to host the deployed website and repository of all previous versions of the build.
-+ Google Chrome Developer Tools ~ Used as the core test phase throughout the project build life, testing the responsiveness of elements and CSS visuals.
-+ [Pexels](https://www.pexels.com/) ~ Online Free stock imagery. Used to provide the hero shot images.
-+ [Fontawesome](https://fontawesome.com/) ~ for icons 
-+ [Freepnglogos](https://www.freepnglogos.com/) ~ used for images that of the logo from the games that are shown on the Webpage
-+ [Balsamiq](https://balsamiq.com/) ~ used to create the wireframes for this project
-
 ### Testing
 The W3C Markup Validator and W3C CSS Validator Services were used on every page of the project to ensure there were no syntax errors.
 + [HTML Validator](https://github.com/Gonzo2500/Milestone_project_1/blob/master/documentation/screenshots/screenshot-html.PNG)
@@ -141,6 +127,20 @@ The W3C Markup Validator and W3C CSS Validator Services were used on every page 
 + The Website was tested on different browsers e.g. Chrome, Internet Explorer, Microsoft Edge, Mozilla Firefox and Safari 
 + The Website was viewed on different devices: Desktop, laptop, IPad and mobilephones
 + Friends and relatives were shown the website and reviewed it
+
+### Technologies Used
++ HTML ~ main Language used to structure the individual pages of the website.
++ CSS ~ styling language used to format and visually build upon the accompanying HTML.
++ [Bootstrap Framework](https://getbootstrap.com/) ~ Used as the core structuring layout building blocks of the website, ensuring responsive size display.
++ [Gitpod](https://www.gitpod.io/) ~ Gitpod was used as the preferred IDE for this project.
++ Gitpod Terminal ~ Used to commit to local repository and further push to Github Repo ensuring version controlling of the project build.
++ [Git](https://git-scm.com/) ~ Version control system for tracking changes to your coding projects.
++ [Github](https://github.com/) ~ Used to host the deployed website and repository of all previous versions of the build.
++ Google Chrome Developer Tools ~ Used as the core test phase throughout the project build life, testing the responsiveness of elements and CSS visuals.
++ [Pexels](https://www.pexels.com/) ~ Online Free stock imagery. Used to provide the hero shot images.
++ [Fontawesome](https://fontawesome.com/) ~ for icons 
++ [Freepnglogos](https://www.freepnglogos.com/) ~ used for images that of the logo from the games that are shown on the Webpage
++ [Balsamiq](https://balsamiq.com/) ~ used to create the wireframes for this project
 
 ### Deployment
 #### Github Pages
