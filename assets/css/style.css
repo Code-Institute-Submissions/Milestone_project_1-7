@@ -881,10 +881,19 @@ input.modal-close:hover {
 .offer-section {
   text-align: center;
   margin: 40px 0px;
+  max-width: 99%;
+}
+
+.offer-section div{
+    margin: 0 auto;
+    
 }
 
 .offer-section h2 {
   margin-bottom: 80px;
+}
+.about-offer{
+    padding: 0;
 }
 
 .offer-section i {
@@ -899,6 +908,7 @@ input.modal-close:hover {
   text-transform: capitalize;
   line-height: 40px;
 }
+
 
 /*------------------------------------------------------About us Benefit Section */
 .benefit-section {
@@ -1409,7 +1419,7 @@ input.modal-close:hover {
   }
 }
 
-@media only screen and (min-width: 300px) and (max-width: 575px) {
+@media only screen and (min-width: 280px) and (max-width: 575px) {
   .active:after {
     max-width: 100%;
   }
