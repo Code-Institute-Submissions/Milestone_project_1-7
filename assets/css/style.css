@@ -880,11 +880,11 @@ input.modal-close:hover {
 /*------------------------------------------------------About us Offer Section */
 .offer-section {
   text-align: center;
-  margin: 100px 0px;
+  margin: 40px 0px;
 }
 
 .offer-section h2 {
-  margin: 80px 0px;
+  margin-bottom: 80px;
 }
 
 .offer-section i {
