@@ -66,7 +66,7 @@ Although this website contains "forms" i.e. modals on the event.html and a conta
 The data users enter in the form will be sent. This could be to an email or a created database.
 
 ##### Theme switch
-In the [style.css](https://github.com/Gonzo2500/Milestone_project_1/blob/master/assets/css/style.css) file the colors that are used in this project are mostly stored in variables. There were 2 reasons for this, first it makes it less error-prone to misplace color. The second reson was a feature idea of switching the color theme of the website via an option in the navigation bar. Here you can find an <a href="https://alligator.io/ target="_blank">example.</a>
+In the [style.css](https://github.com/Gonzo2500/Milestone_project_1/blob/master/assets/css/style.css) file the colors that are used in this project are mostly stored in variables. There were 2 reasons for this, first it makes it less error-prone to misplace color. The second reson was a feature idea of switching the color theme of the website via an option in the navigation bar. Here you can find an <a href="https://alligator.io/" target="_blank">example.</a>
 The idea was to reverse engineer it and switch variables with Javascript. As Javascript is not in the scope of this project, the feature will be added in the future.
  
 ##### Modal form
