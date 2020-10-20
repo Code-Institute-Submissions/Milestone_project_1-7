@@ -835,14 +835,14 @@ input.modal-close:hover {
 }
 
 .offer-section i {
-	font-size: 3rem;
+	font-size: 2rem;
 	color: var(--font-color-main);
 	margin-bottom: 10px;
 }
 
 .offer-section p {
 	color: var(--font-color-main);
-	font-size: 1.5rem;
+	font-size: 1.25rem;
 	text-transform: capitalize;
 	line-height: 40px;
 }
@@ -880,14 +880,14 @@ input.modal-close:hover {
 }
 
 .benefit-section i {
-	font-size: 2.5rem;
+	font-size: 2rem;
 	color: var(--header-bg-color);
 	margin: 10px;
 }
 
 .benefit-section p {
 	color: var(--header-bg-color);
-	font-size: 1.5rem;
+	font-size: 1.25rem;
 	text-transform: capitalize;
 	font-weight: 700;
 }
@@ -986,7 +986,7 @@ input.modal-close:hover {
 		font-size: 2rem;
 	}
     .section-heading {
-		font-size: 4.5rem;
+		font-size: 5rem;
 	}
 	.placeholder {
 		height: 600px;
@@ -1061,19 +1061,17 @@ input.modal-close:hover {
 	}
 	.about-hero-text p {
 		font-size: 2.5rem;
-	}
-	.offer-section h2 {
-		font-size: 4rem;
+        line-height: 40px;
 	}
 	.offer-section i {
 		font-size: 2.5rem;
 	}
 	.offer-section p {
-		font-size: 2.5rem;
+		font-size: 1.75rem;
 	}
-	.benefit-section h2 {
-		font-size: 4rem;
-	}
+    .benefit-card{
+        margin-top: 30px;
+    }
 	.benefit-section p {
 		font-size: 2.5rem;
 	}
@@ -1108,6 +1106,85 @@ input.modal-close:hover {
 	}
 }
 
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1350px) {
+	/*------------------------------------------------------Event Page  */
+	.tournament {
+		width: 200px;
+		height: 300px;
+		margin: 0px 10px;
+	}
+	.event-heading {
+		font-size: 1.25rem;
+	}
+	.container-img img {
+		height: 75%;
+	}
+	.card-spacing {
+		margin-top: 0px;
+	}
+	.day {
+		width: 150px;
+		height: 150px;
+	}
+    /*------------------------------------------------------About Page  */
+    .offer-section i{
+        font-size: 2rem;
+    }
+    .offer-section p {
+        font-size: 1.25rem;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+	/*------------------------------------------------------Event Page  */
+	.tournament {
+		width: 180px;
+		height: 300px;
+		margin: 0px 7px;
+	}
+	.event-heading {
+		font-size: 1rem;
+	}
+	.container-img img {
+		height: 75%;
+	}
+	.card-spacing {
+		margin-top: 0px;
+	}
+	.day {
+		width: 120px;
+		height: 120px;
+	}
+	.game-hero-text h1 {
+		font-size: 2.5rem;
+		margin-top: 50px;
+	}
+	.how-to i {
+		font-size: 2rem;
+	}
+	.how-to p {
+		font-size: 1rem;
+	}
+	/*------------------------------------------------------About Page  */
+	.about-hero h1 {
+		font-size: 2.5rem;
+	}
+	.about-hero-text i {
+		font-size: 2rem;
+	}
+	.about-hero-text p {
+		font-size: 1.5rem;
+	}
+    .offer-section i{
+        font-size: 1.25rem;
+    }
+    .offer-section p {
+        font-size: 0.75rem;
+        line-height: 20px;
+    }
+}
 @media only screen and (max-width: 768px) {
 	.section-heading {
 		font-size: 2.5rem;
@@ -1166,71 +1243,6 @@ input.modal-close:hover {
 		text-shadow: none;
 	}
 }
-
-@media only screen and (min-width: 1024px) and (max-width: 1300px) {
-	/*------------------------------------------------------Event Page  */
-	.tournament {
-		width: 200px;
-		height: 300px;
-		margin: 0px 10px;
-	}
-	.event-heading {
-		font-size: 1.25rem;
-	}
-	.container-img img {
-		height: 75%;
-	}
-	.card-spacing {
-		margin-top: 0px;
-	}
-	.day {
-		width: 150px;
-		height: 150px;
-	}
-}
-
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
-	/*------------------------------------------------------Event Page  */
-	.tournament {
-		width: 180px;
-		height: 300px;
-		margin: 0px 7px;
-	}
-	.event-heading {
-		font-size: 1rem;
-	}
-	.container-img img {
-		height: 75%;
-	}
-	.card-spacing {
-		margin-top: 0px;
-	}
-	.day {
-		width: 120px;
-		height: 120px;
-	}
-	.game-hero-text h1 {
-		font-size: 2.5rem;
-		margin-top: 50px;
-	}
-	.how-to i {
-		font-size: 2rem;
-	}
-	.how-to p {
-		font-size: 1rem;
-	}
-	/*------------------------------------------------------About Page  */
-	.about-hero h1 {
-		font-size: 2.5rem;
-	}
-	.about-hero-text i {
-		font-size: 2rem;
-	}
-	.about-hero-text p {
-		font-size: 1.5rem;
-	}
-}
-
 @media only screen and (min-width: 576px) and (max-width: 767px) {
 	.game-hero-text h1 {
 		font-size: 2rem;
@@ -1402,6 +1414,12 @@ input.modal-close:hover {
 	.about-hero-text p {
 		font-size: 1rem;
 	}
+    .offer-section i{
+        font-size: 1.5rem;
+    }
+    .offer-section p {
+        font-size: 1rem;
+    }
 	.about-offer {
 		margin-bottom: 40px;
 		border-top: 2px solid var(--secondary-color);
