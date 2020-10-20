@@ -961,9 +961,6 @@ input.modal-close:hover {
 /*------------------------------------------------------Media Queries */
 
 @media only screen and (min-width: 1800px) {
-	.section-heading {
-		font-size: 4.5rem;
-	}
 	.navbar-brand {
 		font-size: 2rem;
 	}
@@ -988,14 +985,17 @@ input.modal-close:hover {
 	.cta-hero {
 		font-size: 2rem;
 	}
+    .section-heading {
+		font-size: 4.5rem;
+	}
 	.placeholder {
 		height: 600px;
 	}
 	.social-container a p {
-		font-size: 4rem;
+		font-size: 2rem;
 	}
 	.social-container i {
-		font-size: 5rem;
+		font-size: 3rem;
 	}
 	footer {
 		height: 10rem;
