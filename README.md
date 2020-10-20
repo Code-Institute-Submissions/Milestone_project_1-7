@@ -30,5 +30,10 @@ As described above, this project went outside the original brief and is based on
 
 ### User Experience (UX) 
 #### User Stories 
-
++ As a visitor of the site I want a clear overview of games that are offered. So that I can see if the offers draw my interest
++ As a visitor I want to see links to social accounts from "Pulze", so I can see how many people are following and using "Pulze" and get more trust.  
++ As a visitor i want an easy way to navigate to the events/tournaments offered by "Pulze"
++ As a visitor interested joining a tournament I need to understand easily which tournament starts where?(region) when? (time) and how many people can join. (Party size). To make a decision for what tournaments i might want to sign up to. 
++ As a visitor I want to able to sign up for a tournament, to participate later on the tournament.
++ As a visitor I want to get more information on the benefits I might have when using this Service, to make a decision for or against the usage.
 
