@@ -28,6 +28,7 @@ As described above, this project went outside the original brief and is based on
 + [Pexels](https://www.pexels.com/) ~ Online Free stock imagery. Used to provide the hero shot images.
 + [Fontawesome](https://fontawesome.com/) ~ for icons 
 + [Freepnglogos](https://www.freepnglogos.com/) ~ used for images that of the logo from the games that are shown on the Webpage
++ [Balsamiq](https://balsamiq.com/) ~ used to create the wireframes for this project
 
 ### User Experience (UX) 
 #### User Stories 
@@ -56,3 +57,4 @@ Images for the hero shots were used to create a striking effect that gains the u
  + Event Page Wireframe : [Desktop](https://github.com/Gonzo2500/Milestone_project_1/blob/master/documentation/event_desktop.pdf)    [Mobile](https://github.com/Gonzo2500/Milestone_project_1/blob/master/documentation/eventpage_mobile.pdf)
  + About Page Wireframe : [Desktop](https://github.com/Gonzo2500/Milestone_project_1/blob/master/documentation/about_us_desktop.pdf)    [Mobile](https://github.com/Gonzo2500/Milestone_project_1/blob/master/documentation/about_us_mobile.pdf)
 
+#### Testing
