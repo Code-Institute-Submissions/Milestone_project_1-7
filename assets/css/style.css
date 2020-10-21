@@ -1406,6 +1406,16 @@ input.modal-close:hover {
 	.active:after {
 		max-width: 100%;
 	}
+    .join-us{
+        margin-top: 5px;
+        padding: 20px 5px;
+    }
+    .social-container a p {
+		font-size: 0.75rem;
+	}
+	.social-container i {
+		font-size: 1.5rem;
+	}
 	.game-hero-text h1 {
 		font-size: 1.5rem;
 	}
