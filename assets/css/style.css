@@ -8,6 +8,7 @@
 	--font-color-main: #fafafa;
 	--secondary-color: #ff6ec7;
 	--third-color: #00f9ff;
+    --footer-color:rgb(48, 46, 46);
 }
 
 html {
@@ -368,7 +369,7 @@ body {
 /*------------------------------------------------------Footer */
 
 footer {
-	background: rgb(48, 46, 46);
+	background: var(--footer-color);
 	color: var(--font-color-main);
 	font-family: "Roboto", sans-serif;
 	position: absolute;
@@ -927,7 +928,7 @@ input.modal-close:hover {
 .form-container {
 	width: 50%;
     height: 100%;
-    background: rgb(48, 46, 46);
+    background: var(--footer-color);
     border-radius: 30px;
     padding: 10px 15px 60px 15px;
 }
