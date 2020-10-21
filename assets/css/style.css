@@ -1157,8 +1157,14 @@ input.modal-close:hover {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .social-container a p {
+		font-size: 1rem;
+	}
+	.social-container i {
+		font-size: 2rem;
+	}
 	/*------------------------------------------------------Event Page  */
-	.tournament {
+    .tournament {
 		width: 180px;
 		height: 300px;
 		margin: 0px 7px;
@@ -1231,6 +1237,12 @@ input.modal-close:hover {
 	.game-bg-lol img {
 		width: 150px;
 		line-height: 200px;
+	}
+    .social-container a p {
+		font-size: 1rem;
+	}
+	.social-container i {
+		font-size: 2rem;
 	}
 	.footer-links {
 		width: 100%;
