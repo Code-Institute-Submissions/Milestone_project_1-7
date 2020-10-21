@@ -9,6 +9,10 @@
 	--secondary-color: #ff6ec7;
 	--third-color: #00f9ff;
     --footer-color:rgb(48, 46, 46);
+    --hero-color-one:rgba(235, 6, 132, 0.6);
+    --hero-color-two: rgba(218, 20, 208, 0.3);
+    --card-nea: rgb(255,251,150);
+    --card-eu:rgb(185,103,255);
 }
 
 html {
@@ -109,7 +113,7 @@ body {
 .hero-section {
 	height: 80vh;
 	max-width: 100%;
-	background: linear-gradient( 0deg, rgba(235, 6, 132, 0.6), rgba(218, 20, 208, 0.3)), url("../images/hero-image.jpg") center center;
+	background: linear-gradient( 0deg, var(--hero-color-one), var(--hero-color-two)), url("../images/hero-image.jpg") center center;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -424,7 +428,7 @@ footer h3 a:hover {
 .game-hero-section {
 	height: 80vh;
 	max-width: 100%;
-	background: linear-gradient( 0deg, rgba(235, 6, 132, 0.6), rgba(218, 20, 208, 0.3)), url("../images/event_hero_img.jpg") center center;
+	background: linear-gradient(0deg, var(--hero-color-one), var(--hero-color-two)), url("../images/event_hero_img.jpg") center center;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -549,23 +553,23 @@ a.game-cta-hero:hover {
 }
 
 .geo.na {
-	border-color: rgb(59, 203, 223);
+	border-color: var(--third-color);
 }
 
 .geo.eu {
-	border-color: rgb(175, 61, 61);
+	border-color: var(--card-eu);
 }
 
 .geo.nea {
-	border-color: rgb(190, 148, 33);
+	border-color: var(--card-nea);
 }
 
 .event-table {
 	margin-top: 20px;
 	display: flex;
 	align-items: center;
-	border-top: 1px solid #ff22a9;
-	border-bottom: 1px solid #ff22a9;
+	border-top: 1px solid var(--secondary-color);
+	border-bottom: 1px solid var(--secondary-color);
 	padding: 20px 0px;
 }
 
@@ -614,15 +618,15 @@ a.game-cta-hero:hover {
 }
 
 .tournament.na {
-	background-color: rgb(59, 203, 223);
+	background-color: var(--third-color);
 }
 
 .tournament.eu {
-	background-color: rgb(175, 61, 61);
+	background-color: var(--card-eu);
 }
 
 .tournament.nea {
-	background-color: rgb(190, 148, 33);
+	background-color: var(--card-nea);
 }
 
 .event-heading {
@@ -781,7 +785,7 @@ input.modal-close:hover {
 .about-hero {
 	height: 80vh;
 	max-width: 100%;
-	background: linear-gradient( 0deg, rgba(235, 6, 132, 0.6), rgba(218, 20, 208, 0.3)), url("../images/hero_image_about.jpg") center center;
+	background: linear-gradient(0deg, var(--hero-color-one), var(--hero-color-two)), url("../images/hero_image_about.jpg") center center;
 	display: flex;
 	justify-content: center;
 	align-items: center;
