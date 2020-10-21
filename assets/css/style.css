@@ -1403,12 +1403,17 @@ input.modal-close:hover {
 }
 
 @media only screen and (min-width: 280px) and (max-width: 575px) {
+    #content-wrap {
+	padding-bottom: 40rem;
+	/* Footer height */
+}
 	.active:after {
 		max-width: 100%;
 	}
     .join-us{
         margin-top: 5px;
         padding: 20px 5px;
+        margin-bottom:15px;
     }
     .social-container a p {
 		font-size: 0.75rem;
