@@ -42,10 +42,11 @@ A Desktop First approach was used for the design of the wireframes.  This aproac
 
 
 ### Features
-+ fully responsive website
-+ sign up to different tournaments
-+ contact form for requests
++ Fully responsive website
++ Sign up to different tournaments
++ Contact form for requests
 + Both forms hold data validation and all fields residing within are set to required ensuring information submitted is of the correct format.
++ Interactive elements
 
 The fonts used throughout the site were imported into the HTML of each page from Google Fonts and are called 'Roboto' and "Press Start 2p".
 
@@ -96,7 +97,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used on every page 
 + The event page can be easily reached via the navigation bar
 ![navigation bar](https://github.com/Gonzo2500/Milestone_project_1/blob/master/documentation/screenshots/navigation-bar-screenshot.PNG "navigation bar")
 
-+ the visitor can also get to the event page by clicking on the game images provided on the landing page
++ The visitor can also get to the event page by clicking on the game images provided on the landing page
 ![event pages image link](https://github.com/Gonzo2500/Milestone_project_1/blob/master/documentation/screenshots/choose-your-game.PNG "event pages image link")
 
 + On the event page the user can use to button in the hero shot to automatically scroll down to the events
@@ -170,7 +171,7 @@ The following steps were used to deploy the page to Github Pages
 ### Credits
 
 #### Content
-+ all content of this site was written by the website developer
++ All content of this site was written by the website developer
 
 #### Code
 The [Bootstrap](https://getbootstrap.com/) library was used to structure parts of the website
