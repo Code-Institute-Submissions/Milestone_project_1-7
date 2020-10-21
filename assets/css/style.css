@@ -914,35 +914,41 @@ input.modal-close:hover {
 	font-size: 1.5rem;
 }
 
-.form-container {
-	margin: 0 auto;
-	width: 50%;
+.form-section h1 {
+	font-family: "Press Start 2P", sans-serif;
+	margin-bottom: 40px;
 }
 
+.flex-container{
+    display: flex;
+    justify-content: center;
+}
+
+.form-container {
+	width: 50%;
+    height: 100%;
+    background: rgb(48, 46, 46);
+    border-radius: 30px;
+    padding: 10px 15px 60px 15px;
+}
+
+.form-container p{
+    font-size: 1.25rem;
+}
 .contact-label {
 	display: block;
 	text-align: left;
-	margin-bottom: 0.25rem;
-}
-
-.form-section h1 {
-	font-family: "Press Start 2P", sans-serif;
-	text-shadow: 0 0 5px var(--secondary-color), 0 0 10px var(--secondary-color), 0 0 15px #fff, 0 0 20px var(--secondary-color), 0 0 30px var(--secondary-color), 0 0 40px var(--secondary-color), 0 0 50px var(--secondary-color), 0 0 60px var(--secondary-color);
-	font-size: 3.5rem;
-	margin-bottom: 20px;
-}
-
-.form-container {
-	height: 70vh;
+	margin: 0.5rem 0px;
+    font-size: 1.25rem;
 }
 
 .contact-form {
 	width: 100%;
+   
 }
 
 .txt-area-width {
 	width: 100%;
-	margin-top: 1.25rem;
 }
 
 .contact-btn {
@@ -1075,6 +1081,8 @@ input.modal-close:hover {
 	.benefit-section p {
 		font-size: 2.5rem;
 	}
+    /*------------------------------------------------------Contact Page */
+
 	.form-section {
 		font-size: 2.5rem;
 		padding-top: 100px;
@@ -1083,6 +1091,12 @@ input.modal-close:hover {
 		font-size: 6rem;
 		margin-bottom: 100px;
 	}
+    .form-container p{
+    font-size: 2rem;
+    }
+  .contact-label {
+    font-size: 1.5rem;
+    }
 }
 
 @media only screen and (min-width: 1060px) and (max-width: 1800px) {
@@ -1183,6 +1197,14 @@ input.modal-close:hover {
     .offer-section p {
         font-size: 0.75rem;
         line-height: 20px;
+    }
+    /*------------------------------------------------------Contact Page  */
+    .form-container p{
+    font-size: 1rem;
+    }
+
+    .contact-label {
+    font-size: 1rem;
     }
 }
 @media only screen and (max-width: 768px) {
@@ -1308,6 +1330,15 @@ input.modal-close:hover {
 	.about-border {
 		border-bottom: none;
 	}
+    /*------------------------------------------------------Contact Page  */
+
+    .form-container p{
+    font-size: 1rem;
+    }
+
+    .contact-label {
+    font-size: 1rem;
+    }
 }
 
 @media only screen and (max-width: 386px) {
